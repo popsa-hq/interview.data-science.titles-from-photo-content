@@ -1,0 +1,136 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.82363891601562,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.82363891601562,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.9654476642608643,
+            Left: 0.18785282969474792,
+            Top: 0.009119654074311256,
+            Width: 0.3595236837863922
+          },
+          Confidence: 99.82363891601562
+        },{
+          BoundingBox: {
+            Height: 0.8237249255180359,
+            Left: 0.49767500162124634,
+            Top: 0.15901464223861694,
+            Width: 0.30056384205818176
+          },
+          Confidence: 99.79798889160156
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 95.3040542602539,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 83.01472473144531,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "People"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 75.79794311523438,
+      Instances: [],
+      Name: "Man",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 68.77254486083984,
+      Instances: [],
+      Name: "Sports",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 68.77254486083984,
+      Instances: [],
+      Name: "Sport",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 57.07038116455078,
+      Instances: [],
+      Name: "Exercise",
+      Parents: [{
+          Name: "Sport"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 57.07038116455078,
+      Instances: [],
+      Name: "Working Out",
+      Parents: [{
+          Name: "Sport"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 57.07038116455078,
+      Instances: [],
+      Name: "Jogging",
+      Parents: [
+        {
+          Name: "Working Out"
+        },
+        {
+          Name: "Fitness"
+        },
+        {
+          Name: "Sport"
+        },
+        {
+          Name: "Person"
+        }
+      ]
+    },
+    {
+      Confidence: 57.07038116455078,
+      Instances: [],
+      Name: "Fitness",
+      Parents: [{
+          Name: "Working Out"
+        },{
+          Name: "Sport"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 55.063682556152344,
+      Instances: [],
+      Name: "Running",
+      Parents: [{
+          Name: "Sport"
+        },{
+          Name: "Person"
+        }]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.18582153320312,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8653895258903503,
+            Left: 0.17878763377666473,
+            Top: 0.1086939126253128,
+            Width: 0.3390952944755554
+          },
+          Confidence: 99.18582153320312
+        },{
+          BoundingBox: {
+            Height: 0.9571873545646667,
+            Left: 0.3411928117275238,
+            Top: 0.04130659997463226,
+            Width: 0.6469801068305969
+          },
+          Confidence: 98.65731811523438
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.18582153320312,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 93.37364959716797,
+      Instances: [],
+      Name: "Sports",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 93.37364959716797,
+      Instances: [],
+      Name: "Sport",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 93.37364959716797,
+      Instances: [],
+      Name: "Working Out",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Sport"
+        }]
+    },
+    {
+      Confidence: 93.37364959716797,
+      Instances: [],
+      Name: "Exercise",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Sport"
+        }]
+    },
+    {
+      Confidence: 92.15131378173828,
+      Instances: [],
+      Name: "Fitness",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Working Out"
+        },{
+          Name: "Sport"
+        }]
+    },
+    {
+      Confidence: 83.7787094116211,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 71.65214538574219,
+      Instances: [],
+      Name: "Woman",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 69.47854614257812,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.91633605957031,
+      Instances: [],
+      Name: "Furniture",
+      Parents: []
+    },
+    {
+      Confidence: 99.91633605957031,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8460555672645569,
+            Left: 0.05231854319572449,
+            Top: 0.15261107683181763,
+            Width: 0.9358354210853577
+          },
+          Confidence: 99.69068145751953
+        }],
+      Name: "Couch",
+      Parents: [{
+          Name: "Furniture"
+        }]
+    },
+    {
+      Confidence: 97.26414489746094,
+      Instances: [],
+      Name: "Cushion",
+      Parents: []
+    },
+    {
+      Confidence: 96.5994644165039,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 96.5994644165039,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.9097975492477417,
+            Left: 0.20932546257972717,
+            Top: 0.06751587241888046,
+            Width: 0.46602389216423035
+          },
+          Confidence: 96.5994644165039
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 89.44135284423828,
+      Instances: [],
+      Name: "Pillow",
+      Parents: [{
+          Name: "Cushion"
+        }]
+    },
+    {
+      Confidence: 85.35002899169922,
+      Instances: [],
+      Name: "Indoors",
+      Parents: []
+    },
+    {
+      Confidence: 85.35002899169922,
+      Instances: [],
+      Name: "Room",
+      Parents: [{
+          Name: "Indoors"
+        }]
+    },
+    {
+      Confidence: 85.35002899169922,
+      Instances: [],
+      Name: "Living Room",
+      Parents: [{
+          Name: "Room"
+        },{
+          Name: "Indoors"
+        }]
+    },
+    {
+      Confidence: 72.45500946044922,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 66.18386840820312,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 66.18386840820312,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 64.22600555419922,
+      Instances: [],
+      Name: "Home Decor",
+      Parents: []
+    },
+    {
+      Confidence: 62.28623580932617,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 61.56859588623047,
+      Instances: [],
+      Name: "Table",
+      Parents: [{
+          Name: "Furniture"
+        }]
+    },
+    {
+      Confidence: 58.86246871948242,
+      Instances: [],
+      Name: "Performer",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 58.2664794921875,
+      Instances: [],
+      Name: "Chair",
+      Parents: [{
+          Name: "Furniture"
+        }]
+    },
+    {
+      Confidence: 55.63991165161133,
+      Instances: [],
+      Name: "Eating",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 55.24410629272461,
+      Instances: [],
+      Name: "Coffee Table",
+      Parents: [{
+          Name: "Furniture"
+        },{
+          Name: "Table"
+        }]
+    }
+  ]
+}

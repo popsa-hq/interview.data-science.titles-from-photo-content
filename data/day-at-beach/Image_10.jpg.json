@@ -1,0 +1,151 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.7912826538086,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.7912826538086,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.5526201128959656,
+            Left: 0.42326197028160095,
+            Top: 0.18532070517539978,
+            Width: 0.11964032053947449
+          },
+          Confidence: 99.7912826538086
+        },
+        {
+          BoundingBox: {
+            Height: 0.6404576301574707,
+            Left: 0.19052578508853912,
+            Top: 0.10706322640180588,
+            Width: 0.15850745141506195
+          },
+          Confidence: 99.78942108154297
+        },
+        {
+          BoundingBox: {
+            Height: 0.3827809691429138,
+            Left: 0.36740028858184814,
+            Top: 0.3238779604434967,
+            Width: 0.0951075404882431
+          },
+          Confidence: 99.49372863769531
+        },
+        {
+          BoundingBox: {
+            Height: 0.5154097676277161,
+            Left: 0.6366612911224365,
+            Top: 0.3873946964740753,
+            Width: 0.1407281458377838
+          },
+          Confidence: 99.31401824951172
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.19123077392578,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 99.05743408203125,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "People"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 97.69949340820312,
+      Instances: [],
+      Name: "Mammal",
+      Parents: [{
+          Name: "Animal"
+        }]
+    },
+    {
+      Confidence: 97.69949340820312,
+      Instances: [],
+      Name: "Pet",
+      Parents: [{
+          Name: "Animal"
+        }]
+    },
+    {
+      Confidence: 97.69949340820312,
+      Instances: [],
+      Name: "Animal",
+      Parents: []
+    },
+    {
+      Confidence: 97.69949340820312,
+      Instances: [],
+      Name: "Canine",
+      Parents: [{
+          Name: "Mammal"
+        },{
+          Name: "Animal"
+        }]
+    },
+    {
+      Confidence: 97.69949340820312,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.22192750871181488,
+            Left: 0.1038568988442421,
+            Top: 0.47075772285461426,
+            Width: 0.12613648176193237
+          },
+          Confidence: 97.69949340820312
+        }],
+      Name: "Dog",
+      Parents: [
+        {
+          Name: "Pet"
+        },
+        {
+          Name: "Canine"
+        },
+        {
+          Name: "Mammal"
+        },
+        {
+          Name: "Animal"
+        }
+      ]
+    },
+    {
+      Confidence: 89.5724105834961,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 89.5724105834961,
+      Instances: [],
+      Name: "Shorts",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 89.5724105834961,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    }
+  ]
+}

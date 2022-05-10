@@ -1,0 +1,174 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 98.28915405273438,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 98.28915405273438,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.7828391194343567,
+            Left: 0.18707431852817535,
+            Top: 0.21173864603042603,
+            Width: 0.675540030002594
+          },
+          Confidence: 98.28915405273438
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 97.52729797363281,
+      Instances: [],
+      Name: "Plant",
+      Parents: []
+    },
+    {
+      Confidence: 93.80091094970703,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 93.25133514404297,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 93.25133514404297,
+      Instances: [],
+      Name: "Pants",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 93.25133514404297,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 92.06342315673828,
+      Instances: [],
+      Name: "Flower",
+      Parents: [{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 92.06342315673828,
+      Instances: [],
+      Name: "Blossom",
+      Parents: [{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 85.51305389404297,
+      Instances: [],
+      Name: "Garden",
+      Parents: [{
+          Name: "Outdoors"
+        }]
+    },
+    {
+      Confidence: 84.43431091308594,
+      Instances: [],
+      Name: "Flower Arrangement",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Flower"
+        },{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 82.22085571289062,
+      Instances: [],
+      Name: "Nature",
+      Parents: []
+    },
+    {
+      Confidence: 82.22085571289062,
+      Instances: [],
+      Name: "Yard",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 80.4130630493164,
+      Instances: [],
+      Name: "Flower Bouquet",
+      Parents: [
+        {
+          Name: "Flower Arrangement"
+        },
+        {
+          Name: "Person"
+        },
+        {
+          Name: "Flower"
+        },
+        {
+          Name: "Plant"
+        }
+      ]
+    },
+    {
+      Confidence: 79.9893798828125,
+      Instances: [],
+      Name: "Wood",
+      Parents: []
+    },
+    {
+      Confidence: 62.554264068603516,
+      Instances: [],
+      Name: "Finger",
+      Parents: []
+    },
+    {
+      Confidence: 61.23371124267578,
+      Instances: [],
+      Name: "Denim",
+      Parents: [{
+          Name: "Clothing"
+        },{
+          Name: "Pants"
+        }]
+    },
+    {
+      Confidence: 61.23371124267578,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.2693016231060028,
+            Left: 0.4291537404060364,
+            Top: 0.7213660478591919,
+            Width: 0.2787112593650818
+          },
+          Confidence: 58.3803825378418
+        }],
+      Name: "Jeans",
+      Parents: [{
+          Name: "Clothing"
+        },{
+          Name: "Pants"
+        }]
+    },
+    {
+      Confidence: 57.07749557495117,
+      Instances: [],
+      Name: "Planting",
+      Parents: []
+    }
+  ]
+}

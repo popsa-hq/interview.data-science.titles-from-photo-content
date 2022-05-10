@@ -1,0 +1,164 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.61465454101562,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.524233877658844,
+            Left: 0.19484186172485352,
+            Top: 0.27056753635406494,
+            Width: 0.6263463497161865
+          },
+          Confidence: 98.3991470336914
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.61465454101562,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.61465454101562,
+      Instances: [],
+      Name: "Boy",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 93.47235107421875,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 93.33086395263672,
+      Instances: [],
+      Name: "Nature",
+      Parents: []
+    },
+    {
+      Confidence: 83.17719268798828,
+      Instances: [],
+      Name: "Water",
+      Parents: []
+    },
+    {
+      Confidence: 78.23082733154297,
+      Instances: [],
+      Name: "Sand",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 72.07888793945312,
+      Instances: [],
+      Name: "Shoreline",
+      Parents: [{
+          Name: "Water"
+        }]
+    },
+    {
+      Confidence: 70.66104125976562,
+      Instances: [],
+      Name: "Kid",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 70.66104125976562,
+      Instances: [],
+      Name: "Child",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 65.20455169677734,
+      Instances: [],
+      Name: "Sea",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        },{
+          Name: "Water"
+        }]
+    },
+    {
+      Confidence: 65.20455169677734,
+      Instances: [],
+      Name: "Ocean",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        },{
+          Name: "Water"
+        }]
+    },
+    {
+      Confidence: 65.20455169677734,
+      Instances: [],
+      Name: "Beach",
+      Parents: [
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Sea"
+        },
+        {
+          Name: "Water"
+        },
+        {
+          Name: "Shoreline"
+        },
+        {
+          Name: "Coast"
+        },
+        {
+          Name: "Nature"
+        }
+      ]
+    },
+    {
+      Confidence: 65.20455169677734,
+      Instances: [],
+      Name: "Coast",
+      Parents: [
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Sea"
+        },
+        {
+          Name: "Nature"
+        },
+        {
+          Name: "Shoreline"
+        },
+        {
+          Name: "Water"
+        }
+      ]
+    },
+    {
+      Confidence: 61.31562042236328,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.98164367675781,
+      Instances: [],
+      Name: "Heel",
+      Parents: []
+    },
+    {
+      Confidence: 94.08094024658203,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 94.08094024658203,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.5002253651618958,
+            Left: 0.05079064518213272,
+            Top: 0.361667662858963,
+            Width: 0.8260759115219116
+          },
+          Confidence: 94.08094024658203
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 88.7196044921875,
+      Instances: [],
+      Name: "Barefoot",
+      Parents: []
+    },
+    {
+      Confidence: 80.22509002685547,
+      Instances: [],
+      Name: "Toe",
+      Parents: []
+    }
+  ]
+}

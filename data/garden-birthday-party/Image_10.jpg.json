@@ -1,0 +1,95 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.2000732421875,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 99.2000732421875,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 98.55437469482422,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.784396767616272,
+            Left: 0.006524084601551294,
+            Top: 0.004485717974603176,
+            Width: 0.6332846283912659
+          },
+          Confidence: 98.55437469482422
+        },{
+          BoundingBox: {
+            Height: 0.538714587688446,
+            Left: 0.43803367018699646,
+            Top: 0.28567180037498474,
+            Width: 0.5606793165206909
+          },
+          Confidence: 96.85661315917969
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 98.55437469482422,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 86.08277130126953,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 82.00110626220703,
+      Instances: [],
+      Name: "Hat",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 82.00110626220703,
+      Instances: [],
+      Name: "Party Hat",
+      Parents: [{
+          Name: "Clothing"
+        },{
+          Name: "Hat"
+        }]
+    },
+    {
+      Confidence: 59.105751037597656,
+      Instances: [],
+      Name: "Cake",
+      Parents: [{
+          Name: "Dessert"
+        },{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 59.105751037597656,
+      Instances: [],
+      Name: "Dessert",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 59.105751037597656,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    }
+  ]
+}

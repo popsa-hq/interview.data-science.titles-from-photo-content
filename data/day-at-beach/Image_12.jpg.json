@@ -1,0 +1,79 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 98.40643310546875,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 98.40643310546875,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.873054027557373,
+            Left: 0.3329254686832428,
+            Top: 0.10938235372304916,
+            Width: 0.42606067657470703
+          },
+          Confidence: 98.40643310546875
+        },{
+          BoundingBox: {
+            Height: 0.7934680581092834,
+            Left: 0.18957041203975677,
+            Top: 0.1739378720521927,
+            Width: 0.30031055212020874
+          },
+          Confidence: 71.10892486572266
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 87.51677703857422,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 87.2619400024414,
+      Instances: [],
+      Name: "Boy",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 76.37483215332031,
+      Instances: [],
+      Name: "Finger",
+      Parents: []
+    },
+    {
+      Confidence: 72.03661346435547,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 59.48050308227539,
+      Instances: [],
+      Name: "Hand",
+      Parents: []
+    },
+    {
+      Confidence: 56.801490783691406,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "People"
+        },{
+          Name: "Person"
+        }]
+    }
+  ]
+}

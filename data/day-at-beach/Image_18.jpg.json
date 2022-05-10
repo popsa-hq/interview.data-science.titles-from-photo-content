@@ -1,0 +1,103 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.0592041015625,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8320953845977783,
+            Left: 0.16996550559997559,
+            Top: 0.15673400461673737,
+            Width: 0.34086015820503235
+          },
+          Confidence: 99.0592041015625
+        },{
+          BoundingBox: {
+            Height: 0.8856263756752014,
+            Left: 0.5739009976387024,
+            Top: 0.09696707874536514,
+            Width: 0.4018494784832001
+          },
+          Confidence: 98.69998168945312
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.0592041015625,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 98.5604476928711,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 98.5604476928711,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 92.83161926269531,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 88.09768676757812,
+      Instances: [],
+      Name: "Vacation",
+      Parents: []
+    },
+    {
+      Confidence: 69.6468734741211,
+      Instances: [],
+      Name: "Swimwear",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 60.248382568359375,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "People"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 58.65920639038086,
+      Instances: [],
+      Name: "Bikini",
+      Parents: [{
+          Name: "Clothing"
+        },{
+          Name: "Swimwear"
+        }]
+    },
+    {
+      Confidence: 58.600337982177734,
+      Instances: [],
+      Name: "Tourist",
+      Parents: [{
+          Name: "Vacation"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 55.607666015625,
+      Instances: [],
+      Name: "Skin",
+      Parents: []
+    }
+  ]
+}

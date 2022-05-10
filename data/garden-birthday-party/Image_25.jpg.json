@@ -1,0 +1,90 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.7890625,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.7890625,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.5876653790473938,
+            Left: 0.35679733753204346,
+            Top: 0.16589124500751495,
+            Width: 0.36808353662490845
+          },
+          Confidence: 99.7890625
+        },
+        {
+          BoundingBox: {
+            Height: 0.5308186411857605,
+            Left: 0.622555136680603,
+            Top: 0.45589375495910645,
+            Width: 0.24447888135910034
+          },
+          Confidence: 99.78358459472656
+        },
+        {
+          BoundingBox: {
+            Height: 0.6465396881103516,
+            Left: 0.08836130052804947,
+            Top: 0.0597456730902195,
+            Width: 0.2909930646419525
+          },
+          Confidence: 99.53761291503906
+        },
+        {
+          BoundingBox: {
+            Height: 0.3171948492527008,
+            Left: 0.16189761459827423,
+            Top: 0.43009376525878906,
+            Width: 0.1910434514284134
+          },
+          Confidence: 99.30677795410156
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.67742156982422,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 99.41791534423828,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "People"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 71.69891357421875,
+      Instances: [],
+      Name: "Leisure Activities",
+      Parents: []
+    },
+    {
+      Confidence: 56.85227966308594,
+      Instances: [],
+      Name: "Vacation",
+      Parents: []
+    },
+    {
+      Confidence: 55.23804473876953,
+      Instances: [],
+      Name: "Tablecloth",
+      Parents: []
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.6678466796875,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.7833338379859924,
+            Left: 0.2570192217826843,
+            Top: 0.1064644306898117,
+            Width: 0.2906392812728882
+          },
+          Confidence: 99.6678466796875
+        },{
+          BoundingBox: {
+            Height: 0.46057823300361633,
+            Left: 0.23512426018714905,
+            Top: 0.4507792294025421,
+            Width: 0.1796550303697586
+          },
+          Confidence: 98.64876556396484
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.6678466796875,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 98.56398010253906,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 98.04113006591797,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    },
+    {
+      Confidence: 88.22697448730469,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 88.22697448730469,
+      Instances: [],
+      Name: "Shorts",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 88.22697448730469,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 61.163307189941406,
+      Instances: [],
+      Name: "Vacation",
+      Parents: []
+    },
+    {
+      Confidence: 55.18036651611328,
+      Instances: [],
+      Name: "Water",
+      Parents: []
+    }
+  ]
+}

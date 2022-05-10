@@ -1,0 +1,136 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 93.07201385498047,
+      Instances: [],
+      Name: "Transportation",
+      Parents: []
+    },
+    {
+      Confidence: 92.57726287841797,
+      Instances: [],
+      Name: "Vehicle",
+      Parents: [{
+          Name: "Transportation"
+        }]
+    },
+    {
+      Confidence: 89.5311279296875,
+      Instances: [],
+      Name: "Cable Car",
+      Parents: [{
+          Name: "Vehicle"
+        },{
+          Name: "Transportation"
+        }]
+    },
+    {
+      Confidence: 87.44104766845703,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.0367744155228138,
+            Left: 0.4618207812309265,
+            Top: 0.6885744333267212,
+            Width: 0.0527292899787426
+          },
+          Confidence: 87.44104766845703
+        },
+        {
+          BoundingBox: {
+            Height: 0.10594909638166428,
+            Left: 0.5473254323005676,
+            Top: 0.6823307871818542,
+            Width: 0.09767118841409683
+          },
+          Confidence: 86.37928771972656
+        },
+        {
+          BoundingBox: {
+            Height: 0.062336791306734085,
+            Left: 0.5780925750732422,
+            Top: 0.623201310634613,
+            Width: 0.04349764063954353
+          },
+          Confidence: 68.86336517333984
+        },
+        {
+          BoundingBox: {
+            Height: 0.029236938804388046,
+            Left: 0.4195030927658081,
+            Top: 0.6973256468772888,
+            Width: 0.039216700941324234
+          },
+          Confidence: 53.487770080566406
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 87.44104766845703,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 64.91673278808594,
+      Instances: [],
+      Name: "Automobile",
+      Parents: [{
+          Name: "Vehicle"
+        },{
+          Name: "Transportation"
+        }]
+    },
+    {
+      Confidence: 64.91673278808594,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.023763000965118408,
+            Left: 0.5753833055496216,
+            Top: 0.29288816452026367,
+            Width: 0.03333399444818497
+          },
+          Confidence: 64.91673278808594
+        }],
+      Name: "Car",
+      Parents: [{
+          Name: "Vehicle"
+        },{
+          Name: "Transportation"
+        }]
+    },
+    {
+      Confidence: 63.878257751464844,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.19496960937976837,
+            Left: 0.38888460397720337,
+            Top: 0.6099168658256531,
+            Width: 0.27964967489242554
+          },
+          Confidence: 63.878257751464844
+        }],
+      Name: "Boat",
+      Parents: [{
+          Name: "Vehicle"
+        },{
+          Name: "Transportation"
+        }]
+    },
+    {
+      Confidence: 63.644874572753906,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 59.6175537109375,
+      Instances: [],
+      Name: "Slope",
+      Parents: []
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.807373046875,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.807373046875,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.6359800696372986,
+            Left: 0.006499748211354017,
+            Top: 0.2533387839794159,
+            Width: 0.22594305872917175
+          },
+          Confidence: 99.807373046875
+        },
+        {
+          BoundingBox: {
+            Height: 0.31622153520584106,
+            Left: 0.2760200798511505,
+            Top: 0.4878418743610382,
+            Width: 0.23229162395000458
+          },
+          Confidence: 99.74527740478516
+        },
+        {
+          BoundingBox: {
+            Height: 0.5369599461555481,
+            Left: 0.6237186193466187,
+            Top: 0.4505762457847595,
+            Width: 0.34054747223854065
+          },
+          Confidence: 99.73115539550781
+        },
+        {
+          BoundingBox: {
+            Height: 0.5423612594604492,
+            Left: 0.4893864095211029,
+            Top: 0.272830605506897,
+            Width: 0.29274633526802063
+          },
+          Confidence: 99.4823226928711
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 98.97679901123047,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 96.98851013183594,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    },
+    {
+      Confidence: 87.75961303710938,
+      Instances: [],
+      Name: "Meal",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 87.75961303710938,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 86.3756103515625,
+      Instances: [],
+      Name: "Vacation",
+      Parents: []
+    },
+    {
+      Confidence: 82.80880737304688,
+      Instances: [],
+      Name: "Leisure Activities",
+      Parents: []
+    },
+    {
+      Confidence: 71.76520538330078,
+      Instances: [],
+      Name: "Picnic",
+      Parents: [
+        {
+          Name: "Person"
+        },
+        {
+          Name: "Meal"
+        },
+        {
+          Name: "Food"
+        },
+        {
+          Name: "Leisure Activities"
+        },
+        {
+          Name: "Vacation"
+        }
+      ]
+    }
+  ]
+}

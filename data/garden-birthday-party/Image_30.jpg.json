@@ -1,0 +1,163 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.79544830322266,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.79544830322266,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.4830910563468933,
+            Left: 0.7142766714096069,
+            Top: 0.41579532623291016,
+            Width: 0.2495577335357666
+          },
+          Confidence: 99.79544830322266
+        },{
+          BoundingBox: {
+            Height: 0.5618753433227539,
+            Left: 0.6082812547683716,
+            Top: 0.32970869541168213,
+            Width: 0.17708325386047363
+          },
+          Confidence: 99.6620864868164
+        },{
+          BoundingBox: {
+            Height: 0.815371572971344,
+            Left: 0.006097595207393169,
+            Top: 0.12405312806367874,
+            Width: 0.5810539126396179
+          },
+          Confidence: 99.4532241821289
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 98.65076446533203,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 98.09333801269531,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "People"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 83.23514556884766,
+      Instances: [],
+      Name: "Leisure Activities",
+      Parents: []
+    },
+    {
+      Confidence: 76.36317443847656,
+      Instances: [],
+      Name: "Vacation",
+      Parents: []
+    },
+    {
+      Confidence: 75.39307403564453,
+      Instances: [],
+      Name: "Meal",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 75.39307403564453,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 75.07071685791016,
+      Instances: [],
+      Name: "Beverage",
+      Parents: []
+    },
+    {
+      Confidence: 75.07071685791016,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.23470616340637207,
+            Left: 0.4617202877998352,
+            Top: 0.7637923359870911,
+            Width: 0.09253424406051636
+          },
+          Confidence: 75.07071685791016
+        }],
+      Name: "Beer",
+      Parents: [{
+          Name: "Beverage"
+        },{
+          Name: "Alcohol"
+        }]
+    },
+    {
+      Confidence: 75.07071685791016,
+      Instances: [],
+      Name: "Alcohol",
+      Parents: [{
+          Name: "Beverage"
+        }]
+    },
+    {
+      Confidence: 75.07071685791016,
+      Instances: [],
+      Name: "Drink",
+      Parents: []
+    },
+    {
+      Confidence: 62.9862060546875,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 62.9862060546875,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 62.97119140625,
+      Instances: [],
+      Name: "Picnic",
+      Parents: [
+        {
+          Name: "Food"
+        },
+        {
+          Name: "Meal"
+        },
+        {
+          Name: "Leisure Activities"
+        },
+        {
+          Name: "Person"
+        },
+        {
+          Name: "Vacation"
+        }
+      ]
+    }
+  ]
+}

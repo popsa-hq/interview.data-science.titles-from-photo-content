@@ -1,0 +1,73 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.92680358886719,
+      Instances: [],
+      Name: "Furniture",
+      Parents: []
+    },
+    {
+      Confidence: 99.92680358886719,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.7868953347206116,
+            Left: 0.046379454433918,
+            Top: 0.21177132427692413,
+            Width: 0.9396202564239502
+          },
+          Confidence: 99.82487487792969
+        }],
+      Name: "Couch",
+      Parents: [{
+          Name: "Furniture"
+        }]
+    },
+    {
+      Confidence: 98.17073822021484,
+      Instances: [],
+      Name: "Cushion",
+      Parents: []
+    },
+    {
+      Confidence: 97.87309265136719,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.9072973728179932,
+            Left: 0.11398855596780777,
+            Top: 0.08348669111728668,
+            Width: 0.4886586666107178
+          },
+          Confidence: 97.87309265136719
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 97.87309265136719,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 66.02142333984375,
+      Instances: [],
+      Name: "Pillow",
+      Parents: [{
+          Name: "Cushion"
+        }]
+    },
+    {
+      Confidence: 58.7169189453125,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 58.7169189453125,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    }
+  ]
+}

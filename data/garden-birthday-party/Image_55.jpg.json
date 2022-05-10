@@ -1,0 +1,157 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.83869934082031,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.83869934082031,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.5749525427818298,
+            Left: 0.2831662893295288,
+            Top: 0.2592860162258148,
+            Width: 0.23904867470264435
+          },
+          Confidence: 99.83869934082031
+        },
+        {
+          BoundingBox: {
+            Height: 0.7837532758712769,
+            Left: 0,
+            Top: 0.07752830535173416,
+            Width: 0.38289135694503784
+          },
+          Confidence: 99.83850860595703
+        },
+        {
+          BoundingBox: {
+            Height: 0.44550609588623047,
+            Left: 0.5985996127128601,
+            Top: 0.4772578477859497,
+            Width: 0.3645961880683899
+          },
+          Confidence: 99.6792221069336
+        },
+        {
+          BoundingBox: {
+            Height: 0.5908097624778748,
+            Left: 0.515623152256012,
+            Top: 0.2185661643743515,
+            Width: 0.20655333995819092
+          },
+          Confidence: 99.01925659179688
+        },
+        {
+          BoundingBox: {
+            Height: 0.8587706089019775,
+            Left: 0.8483548164367676,
+            Top: 0.07971961051225662,
+            Width: 0.14669103920459747
+          },
+          Confidence: 96.65657043457031
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.51654052734375,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 99.51654052734375,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 99.51654052734375,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.20556342601776123,
+            Left: 0.8615638613700867,
+            Top: 0.08901797980070114,
+            Width: 0.1374361515045166
+          },
+          Confidence: 99.51654052734375
+        }],
+      Name: "Hat",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 97.57569122314453,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 93.46410369873047,
+      Instances: [],
+      Name: "Drink",
+      Parents: []
+    },
+    {
+      Confidence: 93.46410369873047,
+      Instances: [],
+      Name: "Alcohol",
+      Parents: [{
+          Name: "Beverage"
+        }]
+    },
+    {
+      Confidence: 93.46410369873047,
+      Instances: [],
+      Name: "Beverage",
+      Parents: []
+    },
+    {
+      Confidence: 93.46410369873047,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.1970425695180893,
+            Left: 0.7477830648422241,
+            Top: 0.799845278263092,
+            Width: 0.12489990144968033
+          },
+          Confidence: 93.46410369873047
+        }],
+      Name: "Beer",
+      Parents: [{
+          Name: "Alcohol"
+        },{
+          Name: "Beverage"
+        }]
+    },
+    {
+      Confidence: 82.89736938476562,
+      Instances: [],
+      Name: "Birthday Party",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    },
+    {
+      Confidence: 82.10153198242188,
+      Instances: [],
+      Name: "Party Hat",
+      Parents: [{
+          Name: "Hat"
+        },{
+          Name: "Clothing"
+        }]
+    }
+  ]
+}

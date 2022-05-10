@@ -1,0 +1,177 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.90412902832031,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.90412902832031,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.7130959033966064,
+            Left: 0.004534561187028885,
+            Top: 0.1456649899482727,
+            Width: 0.29838982224464417
+          },
+          Confidence: 99.90412902832031
+        },
+        {
+          BoundingBox: {
+            Height: 0.8292522430419922,
+            Left: 0.5872204303741455,
+            Top: 0.15892642736434937,
+            Width: 0.3544761836528778
+          },
+          Confidence: 99.72055053710938
+        },
+        {
+          BoundingBox: {
+            Height: 0.37699437141418457,
+            Left: 0.2136210799217224,
+            Top: 0.4860074520111084,
+            Width: 0.22390608489513397
+          },
+          Confidence: 99.7052230834961
+        },
+        {
+          BoundingBox: {
+            Height: 0.5430673360824585,
+            Left: 0.41066214442253113,
+            Top: 0.3336232006549835,
+            Width: 0.17928732931613922
+          },
+          Confidence: 99.51734924316406
+        },
+        {
+          BoundingBox: {
+            Height: 0.5436027646064758,
+            Left: 0.5000330805778503,
+            Top: 0.4241524636745453,
+            Width: 0.28251880407333374
+          },
+          Confidence: 98.95417785644531
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.74296569824219,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.2254616618156433,
+            Left: 0.6118958592414856,
+            Top: 0.15171054005622864,
+            Width: 0.2289017289876938
+          },
+          Confidence: 99.74296569824219
+        }],
+      Name: "Hat",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 99.74296569824219,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 99.74296569824219,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 99.67530822753906,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 88.97872161865234,
+      Instances: [],
+      Name: "Birthday Party",
+      Parents: [{
+          Name: "People"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 85.56776428222656,
+      Instances: [],
+      Name: "Cake",
+      Parents: [{
+          Name: "Dessert"
+        },{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 85.56776428222656,
+      Instances: [],
+      Name: "Dessert",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 85.56776428222656,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 85.56776428222656,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.18615612387657166,
+            Left: 0.13180850446224213,
+            Top: 0.7580516934394836,
+            Width: 0.21230286359786987
+          },
+          Confidence: 85.56776428222656
+        }],
+      Name: "Birthday Cake",
+      Parents: [{
+          Name: "Dessert"
+        },{
+          Name: "Cake"
+        },{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 62.656028747558594,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.09362660348415375,
+            Left: 0.22736482322216034,
+            Top: 0.7383940815925598,
+            Width: 0.01476733386516571
+          },
+          Confidence: 62.656028747558594
+        }],
+      Name: "Candle",
+      Parents: []
+    },
+    {
+      Confidence: 55.957767486572266,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "People"
+        },{
+          Name: "Person"
+        }]
+    }
+  ]
+}

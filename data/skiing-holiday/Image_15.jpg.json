@@ -1,0 +1,215 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.65850067138672,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.1775301992893219,
+            Left: 0.5326688885688782,
+            Top: 0.34135499596595764,
+            Width: 0.04797607287764549
+          },
+          Confidence: 99.65850067138672
+        },
+        {
+          BoundingBox: {
+            Height: 0.19839197397232056,
+            Left: 0.6462039351463318,
+            Top: 0.3354194164276123,
+            Width: 0.055204711854457855
+          },
+          Confidence: 99.55183410644531
+        },
+        {
+          BoundingBox: {
+            Height: 0.19828101992607117,
+            Left: 0.3664338290691376,
+            Top: 0.35028785467147827,
+            Width: 0.057559508830308914
+          },
+          Confidence: 99.24888610839844
+        },
+        {
+          BoundingBox: {
+            Height: 0.13129480183124542,
+            Left: 0.4465816020965576,
+            Top: 0.4068222939968109,
+            Width: 0.06502886861562729
+          },
+          Confidence: 97.54945373535156
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.65850067138672,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.6178207397461,
+      Instances: [],
+      Name: "Nature",
+      Parents: []
+    },
+    {
+      Confidence: 99.32823181152344,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 98.82901000976562,
+      Instances: [],
+      Name: "Mountain",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 96.65554809570312,
+      Instances: [],
+      Name: "Snow",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 94.67378234863281,
+      Instances: [],
+      Name: "Sport",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 94.67378234863281,
+      Instances: [],
+      Name: "Piste",
+      Parents: [
+        {
+          Name: "Sport"
+        },
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Nature"
+        },
+        {
+          Name: "Person"
+        },
+        {
+          Name: "Snow"
+        }
+      ]
+    },
+    {
+      Confidence: 94.67378234863281,
+      Instances: [],
+      Name: "Sports",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 91.82718658447266,
+      Instances: [],
+      Name: "Ice",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 86.98649597167969,
+      Instances: [],
+      Name: "Mountain Range",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Mountain"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 86.98649597167969,
+      Instances: [],
+      Name: "Peak",
+      Parents: [
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Mountain Range"
+        },
+        {
+          Name: "Mountain"
+        },
+        {
+          Name: "Nature"
+        }
+      ]
+    },
+    {
+      Confidence: 77.7203369140625,
+      Instances: [],
+      Name: "Skiing",
+      Parents: [
+        {
+          Name: "Sport"
+        },
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Nature"
+        },
+        {
+          Name: "Person"
+        },
+        {
+          Name: "Snow"
+        }
+      ]
+    },
+    {
+      Confidence: 77.43363952636719,
+      Instances: [],
+      Name: "Slope",
+      Parents: []
+    },
+    {
+      Confidence: 74.78257751464844,
+      Instances: [],
+      Name: "Glacier",
+      Parents: [
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Ice"
+        },
+        {
+          Name: "Mountain"
+        },
+        {
+          Name: "Nature"
+        },
+        {
+          Name: "Snow"
+        }
+      ]
+    }
+  ]
+}

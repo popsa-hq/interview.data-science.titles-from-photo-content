@@ -1,0 +1,253 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.07292175292969,
+      Instances: [],
+      Name: "Plant",
+      Parents: []
+    },
+    {
+      Confidence: 98.89763641357422,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8759773969650269,
+            Left: 0.26810163259506226,
+            Top: 0.11581918597221375,
+            Width: 0.5725017786026001
+          },
+          Confidence: 98.616943359375
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 98.89763641357422,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 95.53890991210938,
+      Instances: [],
+      Name: "Pants",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 95.53890991210938,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 95.53890991210938,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 95.52281951904297,
+      Instances: [],
+      Name: "Flower",
+      Parents: [{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 95.52281951904297,
+      Instances: [],
+      Name: "Blossom",
+      Parents: [{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 93.26801300048828,
+      Instances: [],
+      Name: "Flower Bouquet",
+      Parents: [
+        {
+          Name: "Plant"
+        },
+        {
+          Name: "Flower Arrangement"
+        },
+        {
+          Name: "Flower"
+        },
+        {
+          Name: "Person"
+        }
+      ]
+    },
+    {
+      Confidence: 93.26801300048828,
+      Instances: [],
+      Name: "Flower Arrangement",
+      Parents: [{
+          Name: "Plant"
+        },{
+          Name: "Flower"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 84.22211456298828,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 76.1748275756836,
+      Instances: [],
+      Name: "Wood",
+      Parents: []
+    },
+    {
+      Confidence: 72.9286117553711,
+      Instances: [],
+      Name: "Nature",
+      Parents: []
+    },
+    {
+      Confidence: 72.9286117553711,
+      Instances: [],
+      Name: "Yard",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 72.22067260742188,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.343281626701355,
+            Left: 0.43057799339294434,
+            Top: 0.6331695914268494,
+            Width: 0.30699923634529114
+          },
+          Confidence: 71.92344665527344
+        }],
+      Name: "Jeans",
+      Parents: [{
+          Name: "Clothing"
+        },{
+          Name: "Pants"
+        }]
+    },
+    {
+      Confidence: 72.22067260742188,
+      Instances: [],
+      Name: "Denim",
+      Parents: [{
+          Name: "Clothing"
+        },{
+          Name: "Pants"
+        }]
+    },
+    {
+      Confidence: 68.0075912475586,
+      Instances: [],
+      Name: "Jar",
+      Parents: []
+    },
+    {
+      Confidence: 62.23575973510742,
+      Instances: [],
+      Name: "Pottery",
+      Parents: []
+    },
+    {
+      Confidence: 61.01880645751953,
+      Instances: [],
+      Name: "Vase",
+      Parents: [{
+          Name: "Pottery"
+        },{
+          Name: "Jar"
+        }]
+    },
+    {
+      Confidence: 60.492671966552734,
+      Instances: [],
+      Name: "Kid",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 60.492671966552734,
+      Instances: [],
+      Name: "Child",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 59.5029182434082,
+      Instances: [],
+      Name: "Potted Plant",
+      Parents: [
+        {
+          Name: "Jar"
+        },
+        {
+          Name: "Pottery"
+        },
+        {
+          Name: "Vase"
+        },
+        {
+          Name: "Plant"
+        }
+      ]
+    },
+    {
+      Confidence: 56.71488952636719,
+      Instances: [],
+      Name: "Petal",
+      Parents: [{
+          Name: "Flower"
+        },{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 55.6295280456543,
+      Instances: [],
+      Name: "Photo",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 55.6295280456543,
+      Instances: [],
+      Name: "Photography",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 55.19487762451172,
+      Instances: [],
+      Name: "Grass",
+      Parents: [{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 55.09190368652344,
+      Instances: [],
+      Name: "Boy",
+      Parents: [{
+          Name: "Person"
+        }]
+    }
+  ]
+}

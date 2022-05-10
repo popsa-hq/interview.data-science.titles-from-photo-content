@@ -1,0 +1,119 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 97.32096099853516,
+      Instances: [],
+      Name: "Vehicle",
+      Parents: [{
+          Name: "Transportation"
+        }]
+    },
+    {
+      Confidence: 97.32096099853516,
+      Instances: [],
+      Name: "Transportation",
+      Parents: []
+    },
+    {
+      Confidence: 97.32096099853516,
+      Instances: [],
+      Name: "Cable Car",
+      Parents: [{
+          Name: "Vehicle"
+        },{
+          Name: "Transportation"
+        }]
+    },
+    {
+      Confidence: 90.55376434326172,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 90.55376434326172,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.06071523576974869,
+            Left: 0.33865422010421753,
+            Top: 0.15941135585308075,
+            Width: 0.044823791831731796
+          },
+          Confidence: 90.55376434326172
+        },{
+          BoundingBox: {
+            Height: 0.0711713433265686,
+            Left: 0.5403346419334412,
+            Top: 0.16400359570980072,
+            Width: 0.05622461065649986
+          },
+          Confidence: 82.83927917480469
+        }],
+      Name: "Helmet",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 90.55376434326172,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 74.53374481201172,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.19218873977661133,
+            Left: 0.2647114396095276,
+            Top: 0.1620648056268692,
+            Width: 0.13405950367450714
+          },
+          Confidence: 74.53374481201172
+        },{
+          BoundingBox: {
+            Height: 0.1101907268166542,
+            Left: 0.33137795329093933,
+            Top: 0.16158877313137054,
+            Width: 0.07522741705179214
+          },
+          Confidence: 63.35958480834961
+        },{
+          BoundingBox: {
+            Height: 0.4356955587863922,
+            Left: 0.41637060046195984,
+            Top: 0.15555350482463837,
+            Width: 0.11856970191001892
+          },
+          Confidence: 62.96931076049805
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 74.53374481201172,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 64.03193664550781,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.7995354533195496,
+            Left: 0.24446271359920502,
+            Top: 0.057923417538404465,
+            Width: 0.6877037286758423
+          },
+          Confidence: 64.03193664550781
+        }],
+      Name: "Boat",
+      Parents: [{
+          Name: "Vehicle"
+        },{
+          Name: "Transportation"
+        }]
+    }
+  ]
+}

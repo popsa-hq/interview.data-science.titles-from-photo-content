@@ -1,0 +1,138 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.67244720458984,
+      Instances: [],
+      Name: "Furniture",
+      Parents: []
+    },
+    {
+      Confidence: 99.67244720458984,
+      Instances: [],
+      Name: "Couch",
+      Parents: [{
+          Name: "Furniture"
+        }]
+    },
+    {
+      Confidence: 99.60189056396484,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 99.60189056396484,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 98.07841491699219,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 98.07841491699219,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.8733600974082947,
+            Left: 0.30897587537765503,
+            Top: 0.1217767745256424,
+            Width: 0.33820590376853943
+          },
+          Confidence: 98.07841491699219
+        },
+        {
+          BoundingBox: {
+            Height: 0.6254854798316956,
+            Left: 0.5891394019126892,
+            Top: 0.3532215654850006,
+            Width: 0.39043566584587097
+          },
+          Confidence: 97.94723510742188
+        },
+        {
+          BoundingBox: {
+            Height: 0.5071696043014526,
+            Left: 0.021332763135433197,
+            Top: 0.4623251259326935,
+            Width: 0.40929126739501953
+          },
+          Confidence: 97.05221557617188
+        },
+        {
+          BoundingBox: {
+            Height: 0.6109753251075745,
+            Left: 0.10180221498012543,
+            Top: 0.37284061312675476,
+            Width: 0.48464664816856384
+          },
+          Confidence: 46.27228546142578
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 79.87448120117188,
+      Instances: [],
+      Name: "Sleeve",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 76.46986389160156,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 71.45968627929688,
+      Instances: [],
+      Name: "Sweater",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 68.57181549072266,
+      Instances: [],
+      Name: "Cushion",
+      Parents: []
+    },
+    {
+      Confidence: 66.18012237548828,
+      Instances: [],
+      Name: "Long Sleeve",
+      Parents: [{
+          Name: "Sleeve"
+        },{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 64.54643249511719,
+      Instances: [],
+      Name: "Coat",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 57.272117614746094,
+      Instances: [],
+      Name: "Jacket",
+      Parents: [{
+          Name: "Clothing"
+        },{
+          Name: "Coat"
+        }]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.98735809326172,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8730673789978027,
+            Left: 0.02977951057255268,
+            Top: 0.0975189208984375,
+            Width: 0.9575973153114319
+          },
+          Confidence: 96.53355407714844
+        }],
+      Name: "Couch",
+      Parents: [{
+          Name: "Furniture"
+        }]
+    },
+    {
+      Confidence: 99.98735809326172,
+      Instances: [],
+      Name: "Furniture",
+      Parents: []
+    },
+    {
+      Confidence: 97.52075958251953,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 97.52075958251953,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.9038227796554565,
+            Left: 0.17457443475723267,
+            Top: 0.06560754030942917,
+            Width: 0.5134912133216858
+          },
+          Confidence: 97.52075958251953
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 88.33221435546875,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 88.33221435546875,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 78.5791015625,
+      Instances: [],
+      Name: "Chair",
+      Parents: [{
+          Name: "Furniture"
+        }]
+    },
+    {
+      Confidence: 71.84735107421875,
+      Instances: [],
+      Name: "Weaponry",
+      Parents: []
+    },
+    {
+      Confidence: 71.84735107421875,
+      Instances: [],
+      Name: "Weapon",
+      Parents: []
+    },
+    {
+      Confidence: 70.69978332519531,
+      Instances: [],
+      Name: "Beverage",
+      Parents: []
+    },
+    {
+      Confidence: 70.69978332519531,
+      Instances: [],
+      Name: "Alcohol",
+      Parents: [{
+          Name: "Beverage"
+        }]
+    },
+    {
+      Confidence: 70.69978332519531,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.3367910087108612,
+            Left: 0.27741676568984985,
+            Top: 0.5831241011619568,
+            Width: 0.10845977813005447
+          },
+          Confidence: 70.69978332519531
+        }],
+      Name: "Beer",
+      Parents: [{
+          Name: "Alcohol"
+        },{
+          Name: "Beverage"
+        }]
+    },
+    {
+      Confidence: 70.69978332519531,
+      Instances: [],
+      Name: "Drink",
+      Parents: []
+    },
+    {
+      Confidence: 59.29229736328125,
+      Instances: [],
+      Name: "Bomb",
+      Parents: [{
+          Name: "Weapon"
+        }]
+    },
+    {
+      Confidence: 58.992671966552734,
+      Instances: [],
+      Name: "Long Sleeve",
+      Parents: [{
+          Name: "Sleeve"
+        },{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 58.992671966552734,
+      Instances: [],
+      Name: "Sleeve",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 57.127227783203125,
+      Instances: [],
+      Name: "Cushion",
+      Parents: []
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.3184585571289,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.6629601120948792,
+            Left: 0.5090793371200562,
+            Top: 0.32193470001220703,
+            Width: 0.3633507192134857
+          },
+          Confidence: 97.89115905761719
+        },{
+          BoundingBox: {
+            Height: 0.9446821212768555,
+            Left: 0.0002355194155825302,
+            Top: 0.051481958478689194,
+            Width: 0.49532225728034973
+          },
+          Confidence: 96.5936050415039
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.3184585571289,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 97.33078002929688,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 93.43193817138672,
+      Instances: [],
+      Name: "Vacation",
+      Parents: []
+    },
+    {
+      Confidence: 93.24884796142578,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 89.52283477783203,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    },
+    {
+      Confidence: 85.21951293945312,
+      Instances: [],
+      Name: "Tourist",
+      Parents: [{
+          Name: "Vacation"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 80.32393646240234,
+      Instances: [],
+      Name: "Photo",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 80.32393646240234,
+      Instances: [],
+      Name: "Photography",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 77.54765319824219,
+      Instances: [],
+      Name: "Portrait",
+      Parents: [{
+          Name: "Face"
+        },{
+          Name: "Photography"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 68.1409683227539,
+      Instances: [],
+      Name: "Selfie",
+      Parents: [
+        {
+          Name: "Face"
+        },
+        {
+          Name: "Photography"
+        },
+        {
+          Name: "Portrait"
+        },
+        {
+          Name: "Person"
+        }
+      ]
+    },
+    {
+      Confidence: 67.21932983398438,
+      Instances: [],
+      Name: "Spring Break",
+      Parents: [{
+          Name: "Vacation"
+        },{
+          Name: "Tourist"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 64.5267333984375,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    }
+  ]
+}

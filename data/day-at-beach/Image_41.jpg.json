@@ -1,0 +1,138 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.64395904541016,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8632755279541016,
+            Left: 0.13375601172447205,
+            Top: 0.11895232647657394,
+            Width: 0.30819493532180786
+          },
+          Confidence: 99.64395904541016
+        },{
+          BoundingBox: {
+            Height: 0.8597456216812134,
+            Left: 0.357973575592041,
+            Top: 0.13330362737178802,
+            Width: 0.5254616737365723
+          },
+          Confidence: 98.09393310546875
+        },{
+          BoundingBox: {
+            Height: 0.7736395597457886,
+            Left: 0.23950806260108948,
+            Top: 0.20790503919124603,
+            Width: 0.4255470633506775
+          },
+          Confidence: 83.40616607666016
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.64395904541016,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 98.61426544189453,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 94.91717529296875,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    },
+    {
+      Confidence: 75.0093002319336,
+      Instances: [],
+      Name: "Photo",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 75.0093002319336,
+      Instances: [],
+      Name: "Photography",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 72.65379333496094,
+      Instances: [],
+      Name: "Portrait",
+      Parents: [{
+          Name: "Face"
+        },{
+          Name: "Photography"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 72.65379333496094,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 70.5558090209961,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 63.65768051147461,
+      Instances: [],
+      Name: "Selfie",
+      Parents: [
+        {
+          Name: "Face"
+        },
+        {
+          Name: "Photography"
+        },
+        {
+          Name: "Portrait"
+        },
+        {
+          Name: "Person"
+        }
+      ]
+    },
+    {
+      Confidence: 61.27047348022461,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 59.05756759643555,
+      Instances: [],
+      Name: "Vacation",
+      Parents: []
+    }
+  ]
+}

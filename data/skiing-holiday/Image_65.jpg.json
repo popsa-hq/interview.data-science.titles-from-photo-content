@@ -1,0 +1,165 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 97.4573974609375,
+      Instances: [],
+      Name: "Nature",
+      Parents: []
+    },
+    {
+      Confidence: 97.12787628173828,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 94.3343505859375,
+      Instances: [],
+      Name: "Plant",
+      Parents: []
+    },
+    {
+      Confidence: 94.3343505859375,
+      Instances: [],
+      Name: "Tree",
+      Parents: [{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 93.54365539550781,
+      Instances: [],
+      Name: "Fir",
+      Parents: [{
+          Name: "Tree"
+        },{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 93.54365539550781,
+      Instances: [],
+      Name: "Abies",
+      Parents: [{
+          Name: "Tree"
+        },{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 85.60911560058594,
+      Instances: [],
+      Name: "Vehicle",
+      Parents: [{
+          Name: "Transportation"
+        }]
+    },
+    {
+      Confidence: 85.60911560058594,
+      Instances: [],
+      Name: "Transportation",
+      Parents: []
+    },
+    {
+      Confidence: 85.60911560058594,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.5416961908340454,
+            Left: 0.011729950085282326,
+            Top: 0.44352489709854126,
+            Width: 0.5057247877120972
+          },
+          Confidence: 85.60911560058594
+        }],
+      Name: "Boat",
+      Parents: [{
+          Name: "Vehicle"
+        },{
+          Name: "Transportation"
+        }]
+    },
+    {
+      Confidence: 84.00897979736328,
+      Instances: [],
+      Name: "Snow",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 80.20820617675781,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 80.20820617675781,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.5936548709869385,
+            Left: 0.016031302511692047,
+            Top: 0.3766133189201355,
+            Width: 0.22581323981285095
+          },
+          Confidence: 79.69715881347656
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 71.22122955322266,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 71.22122955322266,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 70.38690185546875,
+      Instances: [],
+      Name: "Winter",
+      Parents: []
+    },
+    {
+      Confidence: 64.65113830566406,
+      Instances: [],
+      Name: "Sunlight",
+      Parents: []
+    },
+    {
+      Confidence: 62.559471130371094,
+      Instances: [],
+      Name: "Conifer",
+      Parents: [{
+          Name: "Tree"
+        },{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 61.969608306884766,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 60.010475158691406,
+      Instances: [],
+      Name: "Ice",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.46903991699219,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.46903991699219,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.9667263031005859,
+            Left: 0.40356653928756714,
+            Top: 0.015143245458602905,
+            Width: 0.5877413153648376
+          },
+          Confidence: 99.06912231445312
+        },
+        {
+          BoundingBox: {
+            Height: 0.5921522378921509,
+            Left: 0.014475647360086441,
+            Top: 0.39431366324424744,
+            Width: 0.4345261752605438
+          },
+          Confidence: 98.90386962890625
+        },
+        {
+          BoundingBox: {
+            Height: 0.6132375597953796,
+            Left: 0.3464507460594177,
+            Top: 0.3795764744281769,
+            Width: 0.36814427375793457
+          },
+          Confidence: 98.83711242675781
+        },
+        {
+          BoundingBox: {
+            Height: 0.7012004852294922,
+            Left: 0.19494251906871796,
+            Top: 0.10369999706745148,
+            Width: 0.3359234035015106
+          },
+          Confidence: 89.77392578125
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 98.47569274902344,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 96.54936218261719,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    },
+    {
+      Confidence: 96.12150573730469,
+      Instances: [],
+      Name: "Electronics",
+      Parents: []
+    },
+    {
+      Confidence: 96.12150573730469,
+      Instances: [],
+      Name: "Phone",
+      Parents: [{
+          Name: "Electronics"
+        }]
+    },
+    {
+      Confidence: 96.12150573730469,
+      Instances: [],
+      Name: "Cell Phone",
+      Parents: [{
+          Name: "Electronics"
+        },{
+          Name: "Phone"
+        }]
+    },
+    {
+      Confidence: 96.12150573730469,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.23177562654018402,
+            Left: 0.6999726295471191,
+            Top: 0.21480919420719147,
+            Width: 0.20093823969364166
+          },
+          Confidence: 96.12150573730469
+        }],
+      Name: "Mobile Phone",
+      Parents: [{
+          Name: "Electronics"
+        },{
+          Name: "Phone"
+        }]
+    },
+    {
+      Confidence: 88.81719970703125,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 77.84123229980469,
+      Instances: [],
+      Name: "Photo",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 77.84123229980469,
+      Instances: [],
+      Name: "Photography",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 75.21792602539062,
+      Instances: [],
+      Name: "Portrait",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Photography"
+        },{
+          Name: "Face"
+        }]
+    },
+    {
+      Confidence: 66.51580810546875,
+      Instances: [],
+      Name: "Selfie",
+      Parents: [
+        {
+          Name: "Person"
+        },
+        {
+          Name: "Photography"
+        },
+        {
+          Name: "Portrait"
+        },
+        {
+          Name: "Face"
+        }
+      ]
+    }
+  ]
+}

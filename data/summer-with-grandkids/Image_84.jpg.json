@@ -1,0 +1,97 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.99540710449219,
+      Instances: [],
+      Name: "Furniture",
+      Parents: []
+    },
+    {
+      Confidence: 99.99540710449219,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8262094855308533,
+            Left: 0.040072448551654816,
+            Top: 0.17245715856552124,
+            Width: 0.9542304873466492
+          },
+          Confidence: 99.89696502685547
+        }],
+      Name: "Couch",
+      Parents: [{
+          Name: "Furniture"
+        }]
+    },
+    {
+      Confidence: 99.75984954833984,
+      Instances: [],
+      Name: "Cushion",
+      Parents: []
+    },
+    {
+      Confidence: 97.5435562133789,
+      Instances: [],
+      Name: "Pillow",
+      Parents: [{
+          Name: "Cushion"
+        }]
+    },
+    {
+      Confidence: 94.22122955322266,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 94.22122955322266,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8822697997093201,
+            Left: 0.1827104538679123,
+            Top: 0.10281616449356079,
+            Width: 0.45626354217529297
+          },
+          Confidence: 94.22122955322266
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 92.20335388183594,
+      Instances: [],
+      Name: "Room",
+      Parents: [{
+          Name: "Indoors"
+        }]
+    },
+    {
+      Confidence: 92.20335388183594,
+      Instances: [],
+      Name: "Living Room",
+      Parents: [{
+          Name: "Indoors"
+        },{
+          Name: "Room"
+        }]
+    },
+    {
+      Confidence: 92.20335388183594,
+      Instances: [],
+      Name: "Indoors",
+      Parents: []
+    },
+    {
+      Confidence: 91.08537292480469,
+      Instances: [],
+      Name: "Home Decor",
+      Parents: []
+    },
+    {
+      Confidence: 56.660587310791016,
+      Instances: [],
+      Name: "Plant",
+      Parents: []
+    }
+  ]
+}

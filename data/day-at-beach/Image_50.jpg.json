@@ -1,0 +1,93 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.87517547607422,
+      Instances: [],
+      Name: "Back",
+      Parents: []
+    },
+    {
+      Confidence: 98.66474914550781,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.9737479090690613,
+            Left: 0.3805817663669586,
+            Top: 0.008706426247954369,
+            Width: 0.6078640222549438
+          },
+          Confidence: 98.66474914550781
+        },{
+          BoundingBox: {
+            Height: 0.9509514570236206,
+            Left: 0.019992705434560776,
+            Top: 0.01818898133933544,
+            Width: 0.584065318107605
+          },
+          Confidence: 98.22540283203125
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 98.66474914550781,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 92.73656463623047,
+      Instances: [],
+      Name: "Skin",
+      Parents: []
+    },
+    {
+      Confidence: 70.27408599853516,
+      Instances: [],
+      Name: "Hair",
+      Parents: []
+    },
+    {
+      Confidence: 69.20748138427734,
+      Instances: [],
+      Name: "Vacation",
+      Parents: []
+    },
+    {
+      Confidence: 68.35963439941406,
+      Instances: [],
+      Name: "Bottle",
+      Parents: []
+    },
+    {
+      Confidence: 63.838191986083984,
+      Instances: [],
+      Name: "Finger",
+      Parents: []
+    },
+    {
+      Confidence: 57.16328811645508,
+      Instances: [],
+      Name: "Dating",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 56.6278190612793,
+      Instances: [],
+      Name: "Massage",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 55.18117904663086,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    }
+  ]
+}

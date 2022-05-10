@@ -1,0 +1,245 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.53560638427734,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.53560638427734,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8403021693229675,
+            Left: 0.13117629289627075,
+            Top: 0.08237885683774948,
+            Width: 0.4060456156730652
+          },
+          Confidence: 99.53560638427734
+        },{
+          BoundingBox: {
+            Height: 0.6661745309829712,
+            Left: 0.4192834496498108,
+            Top: 0.2563561797142029,
+            Width: 0.40899011492729187
+          },
+          Confidence: 97.74970245361328
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 95.69218444824219,
+      Instances: [],
+      Name: "Plant",
+      Parents: []
+    },
+    {
+      Confidence: 90.31716918945312,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 88.10786437988281,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 83.87017822265625,
+      Instances: [],
+      Name: "Flower",
+      Parents: [{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 83.87017822265625,
+      Instances: [],
+      Name: "Blossom",
+      Parents: [{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 83.759765625,
+      Instances: [],
+      Name: "Pottery",
+      Parents: []
+    },
+    {
+      Confidence: 83.759765625,
+      Instances: [],
+      Name: "Vase",
+      Parents: [{
+          Name: "Pottery"
+        },{
+          Name: "Jar"
+        }]
+    },
+    {
+      Confidence: 83.759765625,
+      Instances: [],
+      Name: "Jar",
+      Parents: []
+    },
+    {
+      Confidence: 83.12358856201172,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 82.99299621582031,
+      Instances: [],
+      Name: "Potted Plant",
+      Parents: [
+        {
+          Name: "Pottery"
+        },
+        {
+          Name: "Plant"
+        },
+        {
+          Name: "Jar"
+        },
+        {
+          Name: "Vase"
+        }
+      ]
+    },
+    {
+      Confidence: 79.22577667236328,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 76.83443450927734,
+      Instances: [],
+      Name: "Flower Arrangement",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Plant"
+        },{
+          Name: "Flower"
+        }]
+    },
+    {
+      Confidence: 67.76420593261719,
+      Instances: [],
+      Name: "Garden",
+      Parents: [{
+          Name: "Outdoors"
+        }]
+    },
+    {
+      Confidence: 67.314208984375,
+      Instances: [],
+      Name: "Flower Bouquet",
+      Parents: [
+        {
+          Name: "Person"
+        },
+        {
+          Name: "Flower Arrangement"
+        },
+        {
+          Name: "Plant"
+        },
+        {
+          Name: "Flower"
+        }
+      ]
+    },
+    {
+      Confidence: 57.50864791870117,
+      Instances: [],
+      Name: "Planter",
+      Parents: [
+        {
+          Name: "Pottery"
+        },
+        {
+          Name: "Plant"
+        },
+        {
+          Name: "Jar"
+        },
+        {
+          Name: "Potted Plant"
+        },
+        {
+          Name: "Vase"
+        }
+      ]
+    },
+    {
+      Confidence: 57.25210952758789,
+      Instances: [],
+      Name: "Ikebana",
+      Parents: [
+        {
+          Name: "Pottery"
+        },
+        {
+          Name: "Art"
+        },
+        {
+          Name: "Flower Arrangement"
+        },
+        {
+          Name: "Vase"
+        },
+        {
+          Name: "Plant"
+        },
+        {
+          Name: "Jar"
+        },
+        {
+          Name: "Flower"
+        },
+        {
+          Name: "Person"
+        },
+        {
+          Name: "Ornament"
+        }
+      ]
+    },
+    {
+      Confidence: 57.25210952758789,
+      Instances: [],
+      Name: "Ornament",
+      Parents: []
+    },
+    {
+      Confidence: 57.25210952758789,
+      Instances: [],
+      Name: "Art",
+      Parents: []
+    },
+    {
+      Confidence: 56.643367767333984,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    }
+  ]
+}

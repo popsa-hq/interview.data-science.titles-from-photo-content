@@ -1,0 +1,124 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.87332153320312,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.87332153320312,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.6005734205245972,
+            Left: 0.6580613851547241,
+            Top: 0.28818652033805847,
+            Width: 0.3357713520526886
+          },
+          Confidence: 99.87332153320312
+        },
+        {
+          BoundingBox: {
+            Height: 0.7236164808273315,
+            Left: 0,
+            Top: 0.24565917253494263,
+            Width: 0.3608804941177368
+          },
+          Confidence: 99.79863739013672
+        },
+        {
+          BoundingBox: {
+            Height: 0.8519752621650696,
+            Left: 0.2577502429485321,
+            Top: 0.04868682846426964,
+            Width: 0.3098199963569641
+          },
+          Confidence: 99.79085540771484
+        },
+        {
+          BoundingBox: {
+            Height: 0.5808297395706177,
+            Left: 0.531669020652771,
+            Top: 0.16352972388267517,
+            Width: 0.24233508110046387
+          },
+          Confidence: 99.53545379638672
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 98.35368347167969,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 97.3554458618164,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    },
+    {
+      Confidence: 66.20842742919922,
+      Instances: [],
+      Name: "Beverage",
+      Parents: []
+    },
+    {
+      Confidence: 66.20842742919922,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.2078821212053299,
+            Left: 0.515978991985321,
+            Top: 0.7893710136413574,
+            Width: 0.14899206161499023
+          },
+          Confidence: 66.20842742919922
+        },{
+          BoundingBox: {
+            Height: 0.22813627123832703,
+            Left: 0.31384512782096863,
+            Top: 0.7649298310279846,
+            Width: 0.11527697741985321
+          },
+          Confidence: 63.192317962646484
+        }],
+      Name: "Beer",
+      Parents: [{
+          Name: "Alcohol"
+        },{
+          Name: "Beverage"
+        }]
+    },
+    {
+      Confidence: 66.20842742919922,
+      Instances: [],
+      Name: "Drink",
+      Parents: []
+    },
+    {
+      Confidence: 66.20842742919922,
+      Instances: [],
+      Name: "Alcohol",
+      Parents: [{
+          Name: "Beverage"
+        }]
+    },
+    {
+      Confidence: 66.15971374511719,
+      Instances: [],
+      Name: "Leisure Activities",
+      Parents: []
+    }
+  ]
+}

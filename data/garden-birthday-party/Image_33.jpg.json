@@ -1,0 +1,192 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.92149353027344,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.9326269030570984,
+            Left: 0.002772125182673335,
+            Top: 0.013684567995369434,
+            Width: 0.32196536660194397
+          },
+          Confidence: 99.92149353027344
+        },
+        {
+          BoundingBox: {
+            Height: 0.5682106614112854,
+            Left: 0.7551571726799011,
+            Top: 0.4201895594596863,
+            Width: 0.23847155272960663
+          },
+          Confidence: 99.81099700927734
+        },
+        {
+          BoundingBox: {
+            Height: 0.6039231419563293,
+            Left: 0.3440561294555664,
+            Top: 0.3685201406478882,
+            Width: 0.42017069458961487
+          },
+          Confidence: 99.71099853515625
+        },
+        {
+          BoundingBox: {
+            Height: 0.723598062992096,
+            Left: 0.6653515696525574,
+            Top: 0.1428796648979187,
+            Width: 0.2585410177707672
+          },
+          Confidence: 99.50702667236328
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.92149353027344,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 98.2057113647461,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 94.76417541503906,
+      Instances: [],
+      Name: "Dessert",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 94.76417541503906,
+      Instances: [],
+      Name: "Cake",
+      Parents: [{
+          Name: "Food"
+        },{
+          Name: "Dessert"
+        }]
+    },
+    {
+      Confidence: 94.76417541503906,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 90.2734146118164,
+      Instances: [],
+      Name: "Birthday Party",
+      Parents: [{
+          Name: "People"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 82.10780334472656,
+      Instances: [],
+      Name: "Alcohol",
+      Parents: [{
+          Name: "Beverage"
+        }]
+    },
+    {
+      Confidence: 82.10780334472656,
+      Instances: [],
+      Name: "Drink",
+      Parents: []
+    },
+    {
+      Confidence: 82.10780334472656,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.2920422852039337,
+            Left: 0.09302058070898056,
+            Top: 0.7044525146484375,
+            Width: 0.09528955072164536
+          },
+          Confidence: 82.10780334472656
+        }],
+      Name: "Beer",
+      Parents: [{
+          Name: "Alcohol"
+        },{
+          Name: "Beverage"
+        }]
+    },
+    {
+      Confidence: 82.10780334472656,
+      Instances: [],
+      Name: "Beverage",
+      Parents: []
+    },
+    {
+      Confidence: 69.70923614501953,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Female"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 69.70923614501953,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 69.50312805175781,
+      Instances: [],
+      Name: "Ball",
+      Parents: []
+    },
+    {
+      Confidence: 61.32602310180664,
+      Instances: [],
+      Name: "Balloon",
+      Parents: [{
+          Name: "Ball"
+        }]
+    },
+    {
+      Confidence: 59.66963195800781,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 59.66963195800781,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 57.16593551635742,
+      Instances: [],
+      Name: "Candle",
+      Parents: []
+    },
+    {
+      Confidence: 57.1019401550293,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.47361755371094,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 99.47361755371094,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 98.65026092529297,
+      Instances: [],
+      Name: "Sleeve",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 97.93482971191406,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 97.93482971191406,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8383980989456177,
+            Left: 0.011906697414815426,
+            Top: 0.15422722697257996,
+            Width: 0.6619850397109985
+          },
+          Confidence: 97.93482971191406
+        },{
+          BoundingBox: {
+            Height: 0.7121440172195435,
+            Left: 0.4932061731815338,
+            Top: 0.283573716878891,
+            Width: 0.4974396526813507
+          },
+          Confidence: 97.0312271118164
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 79.29104614257812,
+      Instances: [],
+      Name: "Finger",
+      Parents: []
+    },
+    {
+      Confidence: 74.08451843261719,
+      Instances: [],
+      Name: "Kid",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 74.08451843261719,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 74.08451843261719,
+      Instances: [],
+      Name: "Teen",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 74.08451843261719,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 74.08451843261719,
+      Instances: [],
+      Name: "Blonde",
+      Parents: [
+        {
+          Name: "Kid"
+        },
+        {
+          Name: "Teen"
+        },
+        {
+          Name: "Female"
+        },
+        {
+          Name: "Girl"
+        },
+        {
+          Name: "Woman"
+        },
+        {
+          Name: "Person"
+        }
+      ]
+    },
+    {
+      Confidence: 74.08451843261719,
+      Instances: [],
+      Name: "Woman",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 74.08451843261719,
+      Instances: [],
+      Name: "Child",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 70.79539489746094,
+      Instances: [],
+      Name: "Shorts",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 69.79349517822266,
+      Instances: [],
+      Name: "Long Sleeve",
+      Parents: [{
+          Name: "Sleeve"
+        },{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 64.48681640625,
+      Instances: [],
+      Name: "Pants",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 62.26964569091797,
+      Instances: [],
+      Name: "Grass",
+      Parents: [{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 62.26964569091797,
+      Instances: [],
+      Name: "Plant",
+      Parents: []
+    },
+    {
+      Confidence: 59.42597961425781,
+      Instances: [],
+      Name: "Dress",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 58.080589294433594,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 57.49844741821289,
+      Instances: [],
+      Name: "Hair",
+      Parents: []
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 98.96915435791016,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.9630079865455627,
+            Left: 0.1944110095500946,
+            Top: 0.012067586183547974,
+            Width: 0.8045889735221863
+          },
+          Confidence: 98.96915435791016
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 98.96915435791016,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 94.94876861572266,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 83.79324340820312,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 83.07566833496094,
+      Instances: [],
+      Name: "Cookie",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 83.07566833496094,
+      Instances: [],
+      Name: "Biscuit",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 65.35969543457031,
+      Instances: [],
+      Name: "Indoors",
+      Parents: []
+    },
+    {
+      Confidence: 65.35969543457031,
+      Instances: [],
+      Name: "Interior Design",
+      Parents: [{
+          Name: "Indoors"
+        }]
+    },
+    {
+      Confidence: 64.13707733154297,
+      Instances: [],
+      Name: "Head",
+      Parents: []
+    },
+    {
+      Confidence: 61.3548583984375,
+      Instances: [],
+      Name: "Photo",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 61.3548583984375,
+      Instances: [],
+      Name: "Portrait",
+      Parents: [{
+          Name: "Face"
+        },{
+          Name: "Photography"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 61.3548583984375,
+      Instances: [],
+      Name: "Photography",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 55.5561408996582,
+      Instances: [],
+      Name: "Room",
+      Parents: [{
+          Name: "Indoors"
+        }]
+    }
+  ]
+}

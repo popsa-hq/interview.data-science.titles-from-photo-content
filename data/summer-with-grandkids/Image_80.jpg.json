@@ -1,0 +1,85 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.36322021484375,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.36322021484375,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.7278644442558289,
+            Left: 0.5051621794700623,
+            Top: 0.2519417405128479,
+            Width: 0.493837833404541
+          },
+          Confidence: 99.36322021484375
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 87.30216979980469,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 76.57887268066406,
+      Instances: [],
+      Name: "Shelf",
+      Parents: []
+    },
+    {
+      Confidence: 74.59412384033203,
+      Instances: [],
+      Name: "Appliance",
+      Parents: []
+    },
+    {
+      Confidence: 73.19792175292969,
+      Instances: [],
+      Name: "Bread",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 69.50434875488281,
+      Instances: [],
+      Name: "Bun",
+      Parents: [{
+          Name: "Food"
+        },{
+          Name: "Bread"
+        }]
+    },
+    {
+      Confidence: 59.452335357666016,
+      Instances: [],
+      Name: "Confectionery",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 59.452335357666016,
+      Instances: [],
+      Name: "Sweets",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 55.38640213012695,
+      Instances: [],
+      Name: "Cooker",
+      Parents: [{
+          Name: "Appliance"
+        }]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.45677185058594,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.45677185058594,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.47730472683906555,
+            Left: 0.45934346318244934,
+            Top: 0.40767449140548706,
+            Width: 0.18661978840827942
+          },
+          Confidence: 99.45677185058594
+        },{
+          BoundingBox: {
+            Height: 0.5487611293792725,
+            Left: 0.6834940314292908,
+            Top: 0.3448261320590973,
+            Width: 0.13095873594284058
+          },
+          Confidence: 98.80338287353516
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 93.34993743896484,
+      Instances: [],
+      Name: "Vehicle",
+      Parents: [{
+          Name: "Transportation"
+        }]
+    },
+    {
+      Confidence: 93.34993743896484,
+      Instances: [],
+      Name: "Transportation",
+      Parents: []
+    },
+    {
+      Confidence: 90.88229370117188,
+      Instances: [],
+      Name: "Aircraft",
+      Parents: [{
+          Name: "Transportation"
+        },{
+          Name: "Vehicle"
+        }]
+    },
+    {
+      Confidence: 90.88229370117188,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.41404667496681213,
+            Left: 0.013691375963389874,
+            Top: 0.24554871022701263,
+            Width: 0.3370918035507202
+          },
+          Confidence: 90.88229370117188
+        }],
+      Name: "Helicopter",
+      Parents: [{
+          Name: "Transportation"
+        },{
+          Name: "Aircraft"
+        },{
+          Name: "Vehicle"
+        }]
+    },
+    {
+      Confidence: 90.00898742675781,
+      Instances: [],
+      Name: "Adventure",
+      Parents: [{
+          Name: "Leisure Activities"
+        }]
+    },
+    {
+      Confidence: 90.00898742675781,
+      Instances: [],
+      Name: "Leisure Activities",
+      Parents: []
+    },
+    {
+      Confidence: 90.00652313232422,
+      Instances: [],
+      Name: "Nature",
+      Parents: []
+    },
+    {
+      Confidence: 89.35111999511719,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 84.95330810546875,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 84.95330810546875,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 84.95330810546875,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.08310874551534653,
+            Left: 0.5341235399246216,
+            Top: 0.4050144851207733,
+            Width: 0.04648376628756523
+          },
+          Confidence: 84.95330810546875
+        }],
+      Name: "Helmet",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 64.31934356689453,
+      Instances: [],
+      Name: "Snow",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 58.7996940612793,
+      Instances: [],
+      Name: "Sports",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 58.7996940612793,
+      Instances: [],
+      Name: "Sport",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 58.6203498840332,
+      Instances: [],
+      Name: "Coat",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    }
+  ]
+}

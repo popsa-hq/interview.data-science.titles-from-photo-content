@@ -1,0 +1,111 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.43092346191406,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.893059492111206,
+            Left: 0.7515292167663574,
+            Top: 0.09696776419878006,
+            Width: 0.24176135659217834
+          },
+          Confidence: 99.43092346191406
+        },{
+          BoundingBox: {
+            Height: 0.9460934400558472,
+            Left: 0.01195802353322506,
+            Top: 0.038139067590236664,
+            Width: 0.5074931383132935
+          },
+          Confidence: 99.35212707519531
+        },{
+          BoundingBox: {
+            Height: 0.8643603920936584,
+            Left: 0.3123173117637634,
+            Top: 0.11355448514223099,
+            Width: 0.4890352785587311
+          },
+          Confidence: 99.00298309326172
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.43092346191406,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 98.03022003173828,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 96.38691711425781,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    },
+    {
+      Confidence: 88.25410461425781,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 78.8758544921875,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Female"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 71.68727111816406,
+      Instances: [],
+      Name: "Dating",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 69.07616424560547,
+      Instances: [],
+      Name: "Teen",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 63.983642578125,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 62.12327194213867,
+      Instances: [],
+      Name: "Woman",
+      Parents: [{
+          Name: "Female"
+        },{
+          Name: "Person"
+        }]
+    }
+  ]
+}

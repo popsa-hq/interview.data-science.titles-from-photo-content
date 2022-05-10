@@ -1,0 +1,105 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.29217529296875,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8195328116416931,
+            Left: 0.10836755484342575,
+            Top: 0.16652238368988037,
+            Width: 0.5117033123970032
+          },
+          Confidence: 96.81749725341797
+        },{
+          BoundingBox: {
+            Height: 0.7435894012451172,
+            Left: 0.22663968801498413,
+            Top: 0.01589292474091053,
+            Width: 0.36114832758903503
+          },
+          Confidence: 83.42060852050781
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.29217529296875,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 97.68231964111328,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 93.78165435791016,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    },
+    {
+      Confidence: 76.24842071533203,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 71.62858581542969,
+      Instances: [],
+      Name: "Photo",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 71.62858581542969,
+      Instances: [],
+      Name: "Photography",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 65.57028198242188,
+      Instances: [],
+      Name: "Portrait",
+      Parents: [{
+          Name: "Face"
+        },{
+          Name: "Photography"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 60.292720794677734,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 56.10858154296875,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    }
+  ]
+}

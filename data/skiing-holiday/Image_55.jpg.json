@@ -1,0 +1,191 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.94586944580078,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 99.94586944580078,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 99.87179565429688,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.5192691683769226,
+            Left: 0.5402160882949829,
+            Top: 0.01550331898033619,
+            Width: 0.3874896168708801
+          },
+          Confidence: 99.87179565429688
+        },{
+          BoundingBox: {
+            Height: 0.27391955256462097,
+            Left: 0.14127424359321594,
+            Top: 0.13060754537582397,
+            Width: 0.14244535565376282
+          },
+          Confidence: 64.21858215332031
+        }],
+      Name: "Helmet",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 98.57730102539062,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 98.57730102539062,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8147408962249756,
+            Left: 0.019863998517394066,
+            Top: 0.10719054192304611,
+            Width: 0.3917004466056824
+          },
+          Confidence: 98.57730102539062
+        },{
+          BoundingBox: {
+            Height: 0.9585790038108826,
+            Left: 0.29058369994163513,
+            Top: 0.0360536128282547,
+            Width: 0.7056838274002075
+          },
+          Confidence: 98.38333892822266
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 98.00125122070312,
+      Instances: [],
+      Name: "Accessory",
+      Parents: []
+    },
+    {
+      Confidence: 98.00125122070312,
+      Instances: [],
+      Name: "Accessories",
+      Parents: []
+    },
+    {
+      Confidence: 98.00125122070312,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.1378287523984909,
+            Left: 0.24113543331623077,
+            Top: 0.24876618385314941,
+            Width: 0.20282971858978271
+          },
+          Confidence: 98.00125122070312
+        }],
+      Name: "Sunglasses",
+      Parents: [{
+          Name: "Accessories"
+        }]
+    },
+    {
+      Confidence: 97.77969360351562,
+      Instances: [],
+      Name: "Crash Helmet",
+      Parents: [{
+          Name: "Clothing"
+        },{
+          Name: "Helmet"
+        }]
+    },
+    {
+      Confidence: 88.59677124023438,
+      Instances: [],
+      Name: "Goggles",
+      Parents: [{
+          Name: "Accessories"
+        }]
+    },
+    {
+      Confidence: 86.81390380859375,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 85.79212951660156,
+      Instances: [],
+      Name: "Nature",
+      Parents: []
+    },
+    {
+      Confidence: 81.10123443603516,
+      Instances: [],
+      Name: "Hardhat",
+      Parents: [{
+          Name: "Clothing"
+        },{
+          Name: "Helmet"
+        }]
+    },
+    {
+      Confidence: 76.3292007446289,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 65.03527069091797,
+      Instances: [],
+      Name: "Snow",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 63.73334503173828,
+      Instances: [],
+      Name: "Photography",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 63.73334503173828,
+      Instances: [],
+      Name: "Portrait",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Photography"
+        },{
+          Name: "Face"
+        }]
+    },
+    {
+      Confidence: 63.73334503173828,
+      Instances: [],
+      Name: "Photo",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 62.312252044677734,
+      Instances: [],
+      Name: "Coat",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    }
+  ]
+}

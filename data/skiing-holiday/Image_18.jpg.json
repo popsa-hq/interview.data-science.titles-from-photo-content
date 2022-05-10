@@ -1,0 +1,262 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.12342071533203,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.9426410794258118,
+            Left: 0.5725962519645691,
+            Top: 0.04867587611079216,
+            Width: 0.39198705554008484
+          },
+          Confidence: 99.12342071533203
+        },
+        {
+          BoundingBox: {
+            Height: 0.34186530113220215,
+            Left: 0.04629621282219887,
+            Top: 0.07055788487195969,
+            Width: 0.23521918058395386
+          },
+          Confidence: 98.6041030883789
+        },
+        {
+          BoundingBox: {
+            Height: 0.41087624430656433,
+            Left: 0.2711191177368164,
+            Top: 0.5592032074928284,
+            Width: 0.24567349255084991
+          },
+          Confidence: 98.02214050292969
+        },
+        {
+          BoundingBox: {
+            Height: 0.05608925223350525,
+            Left: 0.4287131130695343,
+            Top: 0.17201776802539825,
+            Width: 0.03159991279244423
+          },
+          Confidence: 69.0931396484375
+        },
+        {
+          BoundingBox: {
+            Height: 0.049737751483917236,
+            Left: 0.41032156348228455,
+            Top: 0.17648528516292572,
+            Width: 0.024045715108513832
+          },
+          Confidence: 66.70828247070312
+        },
+        {
+          BoundingBox: {
+            Height: 0.028237441554665565,
+            Left: 0.5600036382675171,
+            Top: 0.16936802864074707,
+            Width: 0.02163403294980526
+          },
+          Confidence: 51.05329132080078
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.12342071533203,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 96.58979797363281,
+      Instances: [],
+      Name: "Accessories",
+      Parents: []
+    },
+    {
+      Confidence: 96.58979797363281,
+      Instances: [],
+      Name: "Accessory",
+      Parents: []
+    },
+    {
+      Confidence: 96.58979797363281,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.036200955510139465,
+            Left: 0.14387844502925873,
+            Top: 0.14866675436496735,
+            Width: 0.05857806280255318
+          },
+          Confidence: 96.58979797363281
+        },{
+          BoundingBox: {
+            Height: 0.04388859495520592,
+            Left: 0.7583928108215332,
+            Top: 0.16237260401248932,
+            Width: 0.06809680163860321
+          },
+          Confidence: 94.74462890625
+        },{
+          BoundingBox: {
+            Height: 0.047612354159355164,
+            Left: 0.41121727228164673,
+            Top: 0.6263785362243652,
+            Width: 0.06576910614967346
+          },
+          Confidence: 79.69078826904297
+        }],
+      Name: "Sunglasses",
+      Parents: [{
+          Name: "Accessories"
+        }]
+    },
+    {
+      Confidence: 96.54765319824219,
+      Instances: [],
+      Name: "Automobile",
+      Parents: [{
+          Name: "Vehicle"
+        },{
+          Name: "Transportation"
+        }]
+    },
+    {
+      Confidence: 96.54765319824219,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8404216766357422,
+            Left: 0.0068928832188248634,
+            Top: 0.15799351036548615,
+            Width: 0.9519573450088501
+          },
+          Confidence: 96.54765319824219
+        }],
+      Name: "Car",
+      Parents: [{
+          Name: "Vehicle"
+        },{
+          Name: "Transportation"
+        }]
+    },
+    {
+      Confidence: 96.54765319824219,
+      Instances: [],
+      Name: "Vehicle",
+      Parents: [{
+          Name: "Transportation"
+        }]
+    },
+    {
+      Confidence: 96.54765319824219,
+      Instances: [],
+      Name: "Transportation",
+      Parents: []
+    },
+    {
+      Confidence: 94.8481216430664,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 94.8481216430664,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 70.9291763305664,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 67.8388900756836,
+      Instances: [],
+      Name: "Coat",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 65.72994995117188,
+      Instances: [],
+      Name: "Building",
+      Parents: []
+    },
+    {
+      Confidence: 65.11012268066406,
+      Instances: [],
+      Name: "Overcoat",
+      Parents: [{
+          Name: "Clothing"
+        },{
+          Name: "Coat"
+        }]
+    },
+    {
+      Confidence: 65.11012268066406,
+      Instances: [],
+      Name: "Suit",
+      Parents: [{
+          Name: "Overcoat"
+        },{
+          Name: "Clothing"
+        },{
+          Name: "Coat"
+        }]
+    },
+    {
+      Confidence: 62.20317459106445,
+      Instances: [],
+      Name: "Wheel",
+      Parents: [{
+          Name: "Machine"
+        }]
+    },
+    {
+      Confidence: 62.20317459106445,
+      Instances: [],
+      Name: "Machine",
+      Parents: []
+    },
+    {
+      Confidence: 60.32353591918945,
+      Instances: [],
+      Name: "Alloy Wheel",
+      Parents: [{
+          Name: "Wheel"
+        },{
+          Name: "Spoke"
+        },{
+          Name: "Machine"
+        }]
+    },
+    {
+      Confidence: 60.32353591918945,
+      Instances: [],
+      Name: "Spoke",
+      Parents: [{
+          Name: "Machine"
+        }]
+    },
+    {
+      Confidence: 57.16966247558594,
+      Instances: [],
+      Name: "Tire",
+      Parents: []
+    },
+    {
+      Confidence: 56.454830169677734,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    }
+  ]
+}

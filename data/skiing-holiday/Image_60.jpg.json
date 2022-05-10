@@ -1,0 +1,85 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 98.3108139038086,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 98.3108139038086,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.5756824016571045,
+            Left: 0.02288842760026455,
+            Top: 0.2697288393974304,
+            Width: 0.39797207713127136
+          },
+          Confidence: 98.3108139038086
+        },{
+          BoundingBox: {
+            Height: 0.4884584844112396,
+            Left: 0.4337520897388458,
+            Top: 0.16651318967342377,
+            Width: 0.3724156618118286
+          },
+          Confidence: 94.48796081542969
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 95.6171875,
+      Instances: [],
+      Name: "Nature",
+      Parents: []
+    },
+    {
+      Confidence: 94.53760528564453,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 89.6268081665039,
+      Instances: [],
+      Name: "Sled",
+      Parents: []
+    },
+    {
+      Confidence: 84.23338317871094,
+      Instances: [],
+      Name: "Snow",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 64.54198455810547,
+      Instances: [],
+      Name: "Winter",
+      Parents: []
+    },
+    {
+      Confidence: 57.18303298950195,
+      Instances: [],
+      Name: "Ice",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 56.10487365722656,
+      Instances: [],
+      Name: "Weather",
+      Parents: [{
+          Name: "Nature"
+        }]
+    }
+  ]
+}

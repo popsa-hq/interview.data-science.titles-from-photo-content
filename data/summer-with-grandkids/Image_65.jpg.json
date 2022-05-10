@@ -1,0 +1,103 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.98777770996094,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8801501989364624,
+            Left: 0.047617919743061066,
+            Top: 0.10788777470588684,
+            Width: 0.9280223250389099
+          },
+          Confidence: 96.71105194091797
+        }],
+      Name: "Couch",
+      Parents: [{
+          Name: "Furniture"
+        }]
+    },
+    {
+      Confidence: 99.98777770996094,
+      Instances: [],
+      Name: "Furniture",
+      Parents: []
+    },
+    {
+      Confidence: 95.66219329833984,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 95.66219329833984,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8696019649505615,
+            Left: 0.23253518342971802,
+            Top: 0.09578198194503784,
+            Width: 0.5769245624542236
+          },
+          Confidence: 95.66219329833984
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 76.30110931396484,
+      Instances: [],
+      Name: "Cushion",
+      Parents: []
+    },
+    {
+      Confidence: 70.86742401123047,
+      Instances: [],
+      Name: "Plant",
+      Parents: []
+    },
+    {
+      Confidence: 67.47452545166016,
+      Instances: [],
+      Name: "Indoors",
+      Parents: []
+    },
+    {
+      Confidence: 67.47452545166016,
+      Instances: [],
+      Name: "Living Room",
+      Parents: [{
+          Name: "Room"
+        },{
+          Name: "Indoors"
+        }]
+    },
+    {
+      Confidence: 67.47452545166016,
+      Instances: [],
+      Name: "Room",
+      Parents: [{
+          Name: "Indoors"
+        }]
+    },
+    {
+      Confidence: 61.75343322753906,
+      Instances: [],
+      Name: "Chair",
+      Parents: [{
+          Name: "Furniture"
+        }]
+    },
+    {
+      Confidence: 59.66228485107422,
+      Instances: [],
+      Name: "Weaponry",
+      Parents: []
+    },
+    {
+      Confidence: 59.66228485107422,
+      Instances: [],
+      Name: "Weapon",
+      Parents: []
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.49188995361328,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.49188995361328,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.9291003346443176,
+            Left: 0.4815756678581238,
+            Top: 0.048674073070287704,
+            Width: 0.5174243450164795
+          },
+          Confidence: 99.49188995361328
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 91.684814453125,
+      Instances: [],
+      Name: "Shelf",
+      Parents: []
+    },
+    {
+      Confidence: 90.48750305175781,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 89.69292449951172,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.11355944722890854,
+            Left: 0.3032575249671936,
+            Top: 0.5921211242675781,
+            Width: 0.14762316644191742
+          },
+          Confidence: 83.03478240966797
+        },
+        {
+          BoundingBox: {
+            Height: 0.076162189245224,
+            Left: 0.3309745490550995,
+            Top: 0.5081344842910767,
+            Width: 0.10392346233129501
+          },
+          Confidence: 77.6863784790039
+        },
+        {
+          BoundingBox: {
+            Height: 0.11643070727586746,
+            Left: 0.18980425596237183,
+            Top: 0.5965697765350342,
+            Width: 0.11121243238449097
+          },
+          Confidence: 66.74385070800781
+        },
+        {
+          BoundingBox: {
+            Height: 0.08074413985013962,
+            Left: 0.22036120295524597,
+            Top: 0.5094562768936157,
+            Width: 0.10546448081731796
+          },
+          Confidence: 62.44953155517578
+        }
+      ],
+      Name: "Bread",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 86.40435028076172,
+      Instances: [],
+      Name: "Meal",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 79.95338439941406,
+      Instances: [],
+      Name: "Dish",
+      Parents: [{
+          Name: "Food"
+        },{
+          Name: "Meal"
+        }]
+    },
+    {
+      Confidence: 74.66551971435547,
+      Instances: [],
+      Name: "Bun",
+      Parents: [{
+          Name: "Bread"
+        },{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 64.76253509521484,
+      Instances: [],
+      Name: "Appliance",
+      Parents: []
+    },
+    {
+      Confidence: 63.792747497558594,
+      Instances: [],
+      Name: "Room",
+      Parents: [{
+          Name: "Indoors"
+        }]
+    },
+    {
+      Confidence: 63.792747497558594,
+      Instances: [],
+      Name: "Indoors",
+      Parents: []
+    },
+    {
+      Confidence: 62.8552360534668,
+      Instances: [],
+      Name: "Oven",
+      Parents: [{
+          Name: "Appliance"
+        }]
+    },
+    {
+      Confidence: 58.87544631958008,
+      Instances: [],
+      Name: "Cookie",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 58.87544631958008,
+      Instances: [],
+      Name: "Biscuit",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 58.406890869140625,
+      Instances: [],
+      Name: "Bakery",
+      Parents: [{
+          Name: "Shop"
+        }]
+    },
+    {
+      Confidence: 58.406890869140625,
+      Instances: [],
+      Name: "Shop",
+      Parents: []
+    },
+    {
+      Confidence: 58.08596420288086,
+      Instances: [],
+      Name: "Dessert",
+      Parents: [{
+          Name: "Food"
+        }]
+    }
+  ]
+}

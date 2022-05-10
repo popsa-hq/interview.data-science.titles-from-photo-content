@@ -1,0 +1,290 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.04419708251953,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 99.04419708251953,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.04419708251953,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.9313209652900696,
+            Left: 0.004007964860647917,
+            Top: 0.03401803597807884,
+            Width: 0.684874415397644
+          },
+          Confidence: 98.58869171142578
+        },{
+          BoundingBox: {
+            Height: 0.8265195488929749,
+            Left: 0.1723887026309967,
+            Top: 0.14755825698375702,
+            Width: 0.7845720052719116
+          },
+          Confidence: 77.67903900146484
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 89.24888610839844,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 87.97785186767578,
+      Instances: [],
+      Name: "Smile",
+      Parents: [{
+          Name: "Face"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 87.66007232666016,
+      Instances: [],
+      Name: "Child",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 87.66007232666016,
+      Instances: [],
+      Name: "Kid",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 86.68932342529297,
+      Instances: [],
+      Name: "Blonde",
+      Parents: [
+        {
+          Name: "Person"
+        },
+        {
+          Name: "Girl"
+        },
+        {
+          Name: "Woman"
+        },
+        {
+          Name: "Teen"
+        },
+        {
+          Name: "Kid"
+        },
+        {
+          Name: "Female"
+        }
+      ]
+    },
+    {
+      Confidence: 86.68932342529297,
+      Instances: [],
+      Name: "Woman",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 86.68932342529297,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 86.68932342529297,
+      Instances: [],
+      Name: "Teen",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 84.2509994506836,
+      Instances: [],
+      Name: "Finger",
+      Parents: []
+    },
+    {
+      Confidence: 80.79833984375,
+      Instances: [],
+      Name: "Thumbs Up",
+      Parents: [{
+          Name: "Finger"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 79.15904998779297,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 79.15904998779297,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 78.60208892822266,
+      Instances: [],
+      Name: "Boy",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 77.25323486328125,
+      Instances: [],
+      Name: "Laughing",
+      Parents: [{
+          Name: "Face"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 74.48248291015625,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 71.01013946533203,
+      Instances: [],
+      Name: "Indoors",
+      Parents: []
+    },
+    {
+      Confidence: 70.3050765991211,
+      Instances: [],
+      Name: "Furniture",
+      Parents: []
+    },
+    {
+      Confidence: 70.3050765991211,
+      Instances: [],
+      Name: "Couch",
+      Parents: [{
+          Name: "Furniture"
+        }]
+    },
+    {
+      Confidence: 69.1826400756836,
+      Instances: [],
+      Name: "Lip",
+      Parents: []
+    },
+    {
+      Confidence: 69.1826400756836,
+      Instances: [],
+      Name: "Mouth",
+      Parents: []
+    },
+    {
+      Confidence: 69.1826400756836,
+      Instances: [],
+      Name: "Teeth",
+      Parents: [{
+          Name: "Mouth"
+        }]
+    },
+    {
+      Confidence: 66.09232330322266,
+      Instances: [],
+      Name: "Portrait",
+      Parents: [{
+          Name: "Face"
+        },{
+          Name: "Photography"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 66.09232330322266,
+      Instances: [],
+      Name: "Photography",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 66.09232330322266,
+      Instances: [],
+      Name: "Photo",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 57.87710952758789,
+      Instances: [],
+      Name: "Chair",
+      Parents: [{
+          Name: "Furniture"
+        }]
+    },
+    {
+      Confidence: 57.71778106689453,
+      Instances: [],
+      Name: "Building",
+      Parents: []
+    },
+    {
+      Confidence: 57.71778106689453,
+      Instances: [],
+      Name: "Housing",
+      Parents: [{
+          Name: "Building"
+        }]
+    },
+    {
+      Confidence: 56.5880126953125,
+      Instances: [],
+      Name: "Living Room",
+      Parents: [{
+          Name: "Indoors"
+        },{
+          Name: "Room"
+        }]
+    },
+    {
+      Confidence: 56.5880126953125,
+      Instances: [],
+      Name: "Room",
+      Parents: [{
+          Name: "Indoors"
+        }]
+    }
+  ]
+}

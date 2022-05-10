@@ -1,0 +1,65 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 98.71742248535156,
+      Instances: [],
+      Name: "Finger",
+      Parents: []
+    },
+    {
+      Confidence: 98.41077423095703,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 98.41077423095703,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.9181036353111267,
+            Left: 0.005388732999563217,
+            Top: 0.016859397292137146,
+            Width: 0.5695742964744568
+          },
+          Confidence: 98.41077423095703
+        },{
+          BoundingBox: {
+            Height: 0.6159703135490417,
+            Left: 0.6010825037956238,
+            Top: 0.36206549406051636,
+            Width: 0.39156126976013184
+          },
+          Confidence: 92.44003295898438
+        },{
+          BoundingBox: {
+            Height: 0.8877843618392944,
+            Left: 0.17306329309940338,
+            Top: 0.09400198608636856,
+            Width: 0.7369225025177002
+          },
+          Confidence: 74.34263610839844
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 91.37215423583984,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 84.22339630126953,
+      Instances: [],
+      Name: "Thumbs Up",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Finger"
+        }]
+    }
+  ]
+}

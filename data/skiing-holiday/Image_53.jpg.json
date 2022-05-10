@@ -1,0 +1,376 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.55996704101562,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 99.53736877441406,
+      Instances: [],
+      Name: "Nature",
+      Parents: []
+    },
+    {
+      Confidence: 99.24274444580078,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.7353985905647278,
+            Left: 0.4839942753314972,
+            Top: 0.26309990882873535,
+            Width: 0.31711462140083313
+          },
+          Confidence: 99.24274444580078
+        },
+        {
+          BoundingBox: {
+            Height: 0.6173076033592224,
+            Left: 0.004645767156034708,
+            Top: 0.30455493927001953,
+            Width: 0.21620391309261322
+          },
+          Confidence: 98.80643463134766
+        },
+        {
+          BoundingBox: {
+            Height: 0.8177328705787659,
+            Left: 0.20388677716255188,
+            Top: 0.14918701350688934,
+            Width: 0.286830872297287
+          },
+          Confidence: 96.12606811523438
+        },
+        {
+          BoundingBox: {
+            Height: 0.8108199834823608,
+            Left: 0.6886742115020752,
+            Top: 0.16412284970283508,
+            Width: 0.2442469447851181
+          },
+          Confidence: 89.75605010986328
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.24274444580078,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 96.50638580322266,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.2763257622718811,
+            Left: 0.49920913577079773,
+            Top: 0.21108441054821014,
+            Width: 0.16422554850578308
+          },
+          Confidence: 96.50638580322266
+        },{
+          BoundingBox: {
+            Height: 0.2125195413827896,
+            Left: 0.6995888352394104,
+            Top: 0.2921719253063202,
+            Width: 0.12174743413925171
+          },
+          Confidence: 96.32058715820312
+        },{
+          BoundingBox: {
+            Height: 0.13792625069618225,
+            Left: 0.35620006918907166,
+            Top: 0.0041648647747933865,
+            Width: 0.1195303350687027
+          },
+          Confidence: 88.43128204345703
+        }],
+      Name: "Helmet",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 96.50638580322266,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 96.50638580322266,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 95.46754455566406,
+      Instances: [],
+      Name: "Sport",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 95.46754455566406,
+      Instances: [],
+      Name: "Sports",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 95.46754455566406,
+      Instances: [],
+      Name: "Skiing",
+      Parents: [
+        {
+          Name: "Person"
+        },
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Nature"
+        },
+        {
+          Name: "Snow"
+        },
+        {
+          Name: "Sport"
+        }
+      ]
+    },
+    {
+      Confidence: 95.46754455566406,
+      Instances: [],
+      Name: "Snow",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 95.10691833496094,
+      Instances: [],
+      Name: "Accessories",
+      Parents: []
+    },
+    {
+      Confidence: 95.10691833496094,
+      Instances: [],
+      Name: "Accessory",
+      Parents: []
+    },
+    {
+      Confidence: 95.10691833496094,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.055730413645505905,
+            Left: 0.5502278804779053,
+            Top: 0.37012577056884766,
+            Width: 0.0905437022447586
+          },
+          Confidence: 95.10691833496094
+        },
+        {
+          BoundingBox: {
+            Height: 0.056346263736486435,
+            Left: 0.0010608978336676955,
+            Top: 0.3801115155220032,
+            Width: 0.06968571245670319
+          },
+          Confidence: 93.84268951416016
+        },
+        {
+          BoundingBox: {
+            Height: 0.07336123287677765,
+            Left: 0.714303731918335,
+            Top: 0.3712729513645172,
+            Width: 0.09022705256938934
+          },
+          Confidence: 87.973388671875
+        },
+        {
+          BoundingBox: {
+            Height: 0.06966017186641693,
+            Left: 0.2943781614303589,
+            Top: 0.40735918283462524,
+            Width: 0.07688848674297333
+          },
+          Confidence: 72.49758911132812
+        }
+      ],
+      Name: "Sunglasses",
+      Parents: [{
+          Name: "Accessories"
+        }]
+    },
+    {
+      Confidence: 85.88568115234375,
+      Instances: [],
+      Name: "Piste",
+      Parents: [
+        {
+          Name: "Person"
+        },
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Nature"
+        },
+        {
+          Name: "Snow"
+        },
+        {
+          Name: "Sport"
+        }
+      ]
+    },
+    {
+      Confidence: 68.83700561523438,
+      Instances: [],
+      Name: "Snowboarding",
+      Parents: [
+        {
+          Name: "Person"
+        },
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Nature"
+        },
+        {
+          Name: "Snow"
+        },
+        {
+          Name: "Sport"
+        }
+      ]
+    },
+    {
+      Confidence: 68.71198272705078,
+      Instances: [],
+      Name: "Goggles",
+      Parents: [{
+          Name: "Accessories"
+        }]
+    },
+    {
+      Confidence: 68.46943664550781,
+      Instances: [],
+      Name: "Mountain Range",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Mountain"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 68.46943664550781,
+      Instances: [],
+      Name: "Mountain",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 68.46943664550781,
+      Instances: [],
+      Name: "Peak",
+      Parents: [
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Mountain Range"
+        },
+        {
+          Name: "Mountain"
+        },
+        {
+          Name: "Nature"
+        }
+      ]
+    },
+    {
+      Confidence: 67.8617172241211,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 61.6268424987793,
+      Instances: [],
+      Name: "Crowd",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 57.18757247924805,
+      Instances: [],
+      Name: "Slide",
+      Parents: [{
+          Name: "Toy"
+        }]
+    },
+    {
+      Confidence: 57.18757247924805,
+      Instances: [],
+      Name: "Toy",
+      Parents: []
+    },
+    {
+      Confidence: 56.744903564453125,
+      Instances: [],
+      Name: "Photo",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 56.744903564453125,
+      Instances: [],
+      Name: "Portrait",
+      Parents: [{
+          Name: "Face"
+        },{
+          Name: "Photography"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 56.744903564453125,
+      Instances: [],
+      Name: "Photography",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 55.524810791015625,
+      Instances: [],
+      Name: "Athlete",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Sport"
+        }]
+    }
+  ]
+}

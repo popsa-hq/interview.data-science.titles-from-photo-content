@@ -1,0 +1,127 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.87771606445312,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 99.87771606445312,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.27487242221832275,
+            Left: 0.5096873641014099,
+            Top: 0.0035788046661764383,
+            Width: 0.39549097418785095
+          },
+          Confidence: 99.87771606445312
+        }],
+      Name: "Hat",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 99.87771606445312,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 99.57657623291016,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8759124875068665,
+            Left: 0.5197499394416809,
+            Top: 0.02645360864698887,
+            Width: 0.47925007343292236
+          },
+          Confidence: 99.57657623291016
+        },{
+          BoundingBox: {
+            Height: 0.6735705137252808,
+            Left: 0.23477140069007874,
+            Top: 0.17457614839076996,
+            Width: 0.44369977712631226
+          },
+          Confidence: 98.29911804199219
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.57657623291016,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 94.05406951904297,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 59.304222106933594,
+      Instances: [],
+      Name: "Party Hat",
+      Parents: [{
+          Name: "Hat"
+        },{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 58.74360275268555,
+      Instances: [],
+      Name: "Birthday Party",
+      Parents: [{
+          Name: "People"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 55.42067337036133,
+      Instances: [],
+      Name: "Beverage",
+      Parents: []
+    },
+    {
+      Confidence: 55.42067337036133,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.4457261860370636,
+            Left: 0.7649490237236023,
+            Top: 0.5387097597122192,
+            Width: 0.14095959067344666
+          },
+          Confidence: 55.42067337036133
+        }],
+      Name: "Beer",
+      Parents: [{
+          Name: "Beverage"
+        },{
+          Name: "Alcohol"
+        }]
+    },
+    {
+      Confidence: 55.42067337036133,
+      Instances: [],
+      Name: "Alcohol",
+      Parents: [{
+          Name: "Beverage"
+        }]
+    },
+    {
+      Confidence: 55.42067337036133,
+      Instances: [],
+      Name: "Drink",
+      Parents: []
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.0963363647461,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.0963363647461,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.985730767250061,
+            Left: 0.4811612069606781,
+            Top: 0.00043701170943677425,
+            Width: 0.5178388357162476
+          },
+          Confidence: 99.0963363647461
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 94.90101623535156,
+      Instances: [],
+      Name: "Shelf",
+      Parents: []
+    },
+    {
+      Confidence: 87.20697021484375,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 86.48596954345703,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.11436116695404053,
+            Left: 0.30051398277282715,
+            Top: 0.5637941360473633,
+            Width: 0.15233203768730164
+          },
+          Confidence: 73.84439086914062
+        },{
+          BoundingBox: {
+            Height: 0.11997704952955246,
+            Left: 0.18544632196426392,
+            Top: 0.5650351643562317,
+            Width: 0.11386071890592575
+          },
+          Confidence: 64.38723754882812
+        }],
+      Name: "Bread",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 82.82545471191406,
+      Instances: [],
+      Name: "Bun",
+      Parents: [{
+          Name: "Food"
+        },{
+          Name: "Bread"
+        }]
+    },
+    {
+      Confidence: 76.2406997680664,
+      Instances: [],
+      Name: "Confectionery",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 76.2406997680664,
+      Instances: [],
+      Name: "Sweets",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 70.12891387939453,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.4059901535511017,
+            Left: 0,
+            Top: 0.2551880478858948,
+            Width: 0.22021538019180298
+          },
+          Confidence: 70.12891387939453
+        }],
+      Name: "Cooktop",
+      Parents: [{
+          Name: "Indoors"
+        }]
+    },
+    {
+      Confidence: 70.12891387939453,
+      Instances: [],
+      Name: "Indoors",
+      Parents: []
+    },
+    {
+      Confidence: 68.68524932861328,
+      Instances: [],
+      Name: "Meal",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 60.359107971191406,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 60.359107971191406,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.5698702931404114,
+            Left: 0.5330947041511536,
+            Top: 0.4284658133983612,
+            Width: 0.44355079531669617
+          },
+          Confidence: 60.359107971191406
+        }],
+      Name: "Scarf",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 60.359107971191406,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 59.21413803100586,
+      Instances: [],
+      Name: "Cookie",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 59.21413803100586,
+      Instances: [],
+      Name: "Biscuit",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 58.658390045166016,
+      Instances: [],
+      Name: "Pottery",
+      Parents: []
+    },
+    {
+      Confidence: 56.80150604248047,
+      Instances: [],
+      Name: "Dish",
+      Parents: [{
+          Name: "Food"
+        },{
+          Name: "Meal"
+        }]
+    },
+    {
+      Confidence: 56.59086227416992,
+      Instances: [],
+      Name: "Bakery",
+      Parents: [{
+          Name: "Shop"
+        }]
+    },
+    {
+      Confidence: 56.59086227416992,
+      Instances: [],
+      Name: "Shop",
+      Parents: []
+    }
+  ]
+}

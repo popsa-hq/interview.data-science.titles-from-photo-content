@@ -1,0 +1,153 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 98.40432739257812,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 98.40432739257812,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8421756029129028,
+            Left: 0.05052395537495613,
+            Top: 0.13756512105464935,
+            Width: 0.6630683541297913
+          },
+          Confidence: 98.40432739257812
+        },{
+          BoundingBox: {
+            Height: 0.5750092267990112,
+            Left: 0.5126903057098389,
+            Top: 0.4135279655456543,
+            Width: 0.4863097071647644
+          },
+          Confidence: 83.58989715576172
+        },{
+          BoundingBox: {
+            Height: 0.7066558003425598,
+            Left: 0.26887691020965576,
+            Top: 0.27163630723953247,
+            Width: 0.6945492029190063
+          },
+          Confidence: 82.55116271972656
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 95.02714538574219,
+      Instances: [],
+      Name: "Finger",
+      Parents: []
+    },
+    {
+      Confidence: 83.60415649414062,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 83.04674530029297,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 79.39920043945312,
+      Instances: [],
+      Name: "Kid",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 79.39920043945312,
+      Instances: [],
+      Name: "Child",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 77.09542846679688,
+      Instances: [],
+      Name: "Teen",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 76.85176849365234,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 69.28960418701172,
+      Instances: [],
+      Name: "Portrait",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Face"
+        },{
+          Name: "Photography"
+        }]
+    },
+    {
+      Confidence: 69.28960418701172,
+      Instances: [],
+      Name: "Photography",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 69.28960418701172,
+      Instances: [],
+      Name: "Photo",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 64.42597198486328,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 60.0082893371582,
+      Instances: [],
+      Name: "Woman",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 59.80721664428711,
+      Instances: [],
+      Name: "Thumbs Up",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Finger"
+        }]
+    }
+  ]
+}

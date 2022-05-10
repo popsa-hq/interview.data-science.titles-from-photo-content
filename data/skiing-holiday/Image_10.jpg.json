@@ -1,0 +1,146 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.66619110107422,
+      Instances: [],
+      Name: "Tree",
+      Parents: [{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 99.66619110107422,
+      Instances: [],
+      Name: "Plant",
+      Parents: []
+    },
+    {
+      Confidence: 97.8699722290039,
+      Instances: [],
+      Name: "Fir",
+      Parents: [{
+          Name: "Tree"
+        },{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 97.8699722290039,
+      Instances: [],
+      Name: "Abies",
+      Parents: [{
+          Name: "Tree"
+        },{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 95.43174743652344,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 95.10415649414062,
+      Instances: [],
+      Name: "Nature",
+      Parents: []
+    },
+    {
+      Confidence: 83.68936920166016,
+      Instances: [],
+      Name: "Conifer",
+      Parents: [{
+          Name: "Tree"
+        },{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 80.9679946899414,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 80.9679946899414,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.016213906928896904,
+            Left: 0.48186394572257996,
+            Top: 0.9086917638778687,
+            Width: 0.005993469152599573
+          },
+          Confidence: 80.9679946899414
+        },
+        {
+          BoundingBox: {
+            Height: 0.017997123301029205,
+            Left: 0.6340475082397461,
+            Top: 0.9733469486236572,
+            Width: 0.005573608446866274
+          },
+          Confidence: 72.88208770751953
+        },
+        {
+          BoundingBox: {
+            Height: 0.01959741674363613,
+            Left: 0.5195973515510559,
+            Top: 0.9769315719604492,
+            Width: 0.006563964765518904
+          },
+          Confidence: 69.62236022949219
+        },
+        {
+          BoundingBox: {
+            Height: 0.022143663838505745,
+            Left: 0.5618627071380615,
+            Top: 0.9517556428909302,
+            Width: 0.005353881977498531
+          },
+          Confidence: 52.71955871582031
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 78.76089477539062,
+      Instances: [],
+      Name: "Snow",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 71.06578063964844,
+      Instances: [],
+      Name: "Pine",
+      Parents: [{
+          Name: "Tree"
+        },{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 56.431636810302734,
+      Instances: [],
+      Name: "Mountain",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 55.847930908203125,
+      Instances: [],
+      Name: "Slope",
+      Parents: []
+    }
+  ]
+}

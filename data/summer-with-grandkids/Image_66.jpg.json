@@ -1,0 +1,99 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 98.98699951171875,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 98.98699951171875,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.92421954870224,
+            Left: 0.0067564393393695354,
+            Top: 0.02397986687719822,
+            Width: 0.6192525625228882
+          },
+          Confidence: 98.98699951171875
+        },{
+          BoundingBox: {
+            Height: 0.613888680934906,
+            Left: 0.6002938151359558,
+            Top: 0.3641047775745392,
+            Width: 0.39198094606399536
+          },
+          Confidence: 91.17400360107422
+        },{
+          BoundingBox: {
+            Height: 0.8890640735626221,
+            Left: 0.17412640154361725,
+            Top: 0.09267254173755646,
+            Width: 0.7375600337982178
+          },
+          Confidence: 74.43062591552734
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 98.65381622314453,
+      Instances: [],
+      Name: "Finger",
+      Parents: []
+    },
+    {
+      Confidence: 95.5497055053711,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 86.50808715820312,
+      Instances: [],
+      Name: "Thumbs Up",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Finger"
+        }]
+    },
+    {
+      Confidence: 59.72328567504883,
+      Instances: [],
+      Name: "Kid",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 59.72328567504883,
+      Instances: [],
+      Name: "Child",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 58.74353790283203,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 57.20263671875,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    }
+  ]
+}

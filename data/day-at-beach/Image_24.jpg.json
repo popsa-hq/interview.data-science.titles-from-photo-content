@@ -1,0 +1,169 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.53713989257812,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.97397780418396,
+            Left: 0.04716787859797478,
+            Top: 0,
+            Width: 0.7938028573989868
+          },
+          Confidence: 99.53713989257812
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.53713989257812,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.32615661621094,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 99.27828216552734,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 99.27828216552734,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 96.91333770751953,
+      Instances: [],
+      Name: "Woman",
+      Parents: [{
+          Name: "Female"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 94.29557800292969,
+      Instances: [],
+      Name: "Swimwear",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 89.01058959960938,
+      Instances: [],
+      Name: "Bikini",
+      Parents: [{
+          Name: "Clothing"
+        },{
+          Name: "Swimwear"
+        }]
+    },
+    {
+      Confidence: 62.01295471191406,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 62.01295471191406,
+      Instances: [],
+      Name: "Photo",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 62.01295471191406,
+      Instances: [],
+      Name: "Portrait",
+      Parents: [{
+          Name: "Face"
+        },{
+          Name: "Photography"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 62.01295471191406,
+      Instances: [],
+      Name: "Photography",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 61.443145751953125,
+      Instances: [],
+      Name: "Hair",
+      Parents: []
+    },
+    {
+      Confidence: 56.08929443359375,
+      Instances: [],
+      Name: "Sport",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 56.08929443359375,
+      Instances: [],
+      Name: "Working Out",
+      Parents: [{
+          Name: "Sport"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 56.08929443359375,
+      Instances: [],
+      Name: "Exercise",
+      Parents: [{
+          Name: "Sport"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 56.08929443359375,
+      Instances: [],
+      Name: "Sports",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 55.386199951171875,
+      Instances: [],
+      Name: "Lady",
+      Parents: [{
+          Name: "Woman"
+        },{
+          Name: "Female"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 55.15864562988281,
+      Instances: [],
+      Name: "Arm",
+      Parents: []
+    }
+  ]
+}

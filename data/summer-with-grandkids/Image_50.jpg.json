@@ -1,0 +1,113 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.22158813476562,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.913824200630188,
+            Left: 0.11706805229187012,
+            Top: 0.06912051141262054,
+            Width: 0.5280543565750122
+          },
+          Confidence: 99.22158813476562
+        },{
+          BoundingBox: {
+            Height: 0.6574965715408325,
+            Left: 0.3643542528152466,
+            Top: 0.3288508951663971,
+            Width: 0.6343123912811279
+          },
+          Confidence: 94.61985778808594
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.22158813476562,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 97.9963150024414,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.5309860110282898,
+            Left: 0,
+            Top: 0.005710998550057411,
+            Width: 0.4740121364593506
+          },
+          Confidence: 66.33796691894531
+        },{
+          BoundingBox: {
+            Height: 0.8253468871116638,
+            Left: 0,
+            Top: 0.09835442900657654,
+            Width: 0.9335293173789978
+          },
+          Confidence: 59.38286590576172
+        }],
+      Name: "Couch",
+      Parents: [{
+          Name: "Furniture"
+        }]
+    },
+    {
+      Confidence: 97.9963150024414,
+      Instances: [],
+      Name: "Furniture",
+      Parents: []
+    },
+    {
+      Confidence: 67.65496063232422,
+      Instances: [],
+      Name: "Eating",
+      Parents: [{
+          Name: "Food"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 67.65496063232422,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 63.785884857177734,
+      Instances: [],
+      Name: "Sitting",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 59.59873580932617,
+      Instances: [],
+      Name: "Cushion",
+      Parents: []
+    },
+    {
+      Confidence: 55.783512115478516,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 55.783512115478516,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 55.783512115478516,
+      Instances: [],
+      Name: "Sleeve",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.35999298095703,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.5238928198814392,
+            Left: 0.005879985634237528,
+            Top: 0.40946143865585327,
+            Width: 0.6313022971153259
+          },
+          Confidence: 99.35999298095703
+        },{
+          BoundingBox: {
+            Height: 0.6974040269851685,
+            Left: 0.38297295570373535,
+            Top: 0.20137198269367218,
+            Width: 0.545319676399231
+          },
+          Confidence: 99.2413330078125
+        },{
+          BoundingBox: {
+            Height: 0.1657380312681198,
+            Left: 0.9324896335601807,
+            Top: 0.6067293286323547,
+            Width: 0.06601781398057938
+          },
+          Confidence: 83.56549835205078
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.35999298095703,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 93.6762466430664,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 88.76644897460938,
+      Instances: [],
+      Name: "Dating",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 83.08844757080078,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    },
+    {
+      Confidence: 70.2441635131836,
+      Instances: [],
+      Name: "Beverage",
+      Parents: []
+    },
+    {
+      Confidence: 70.2441635131836,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.21296508610248566,
+            Left: 0.616483747959137,
+            Top: 0.7362868785858154,
+            Width: 0.1624697595834732
+          },
+          Confidence: 70.2441635131836
+        }],
+      Name: "Beer",
+      Parents: [{
+          Name: "Beverage"
+        },{
+          Name: "Alcohol"
+        }]
+    },
+    {
+      Confidence: 70.2441635131836,
+      Instances: [],
+      Name: "Drink",
+      Parents: []
+    },
+    {
+      Confidence: 70.2441635131836,
+      Instances: [],
+      Name: "Alcohol",
+      Parents: [{
+          Name: "Beverage"
+        }]
+    },
+    {
+      Confidence: 67.7473373413086,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 67.7473373413086,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 61.999855041503906,
+      Instances: [],
+      Name: "Plant",
+      Parents: []
+    }
+  ]
+}

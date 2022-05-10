@@ -1,0 +1,148 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.67350006103516,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.8622606992721558,
+            Left: 0.46032389998435974,
+            Top: 0.12853027880191803,
+            Width: 0.3579520285129547
+          },
+          Confidence: 99.67350006103516
+        },
+        {
+          BoundingBox: {
+            Height: 0.9098834991455078,
+            Left: 0.011486679315567017,
+            Top: 0.08689247816801071,
+            Width: 0.4393104910850525
+          },
+          Confidence: 99.59115600585938
+        },
+        {
+          BoundingBox: {
+            Height: 0.8869287967681885,
+            Left: 0.8138135671615601,
+            Top: 0.10590062290430069,
+            Width: 0.17741064727306366
+          },
+          Confidence: 99.49762725830078
+        },
+        {
+          BoundingBox: {
+            Height: 0.644067645072937,
+            Left: 0.7209988832473755,
+            Top: 0.34625083208084106,
+            Width: 0.15017785131931305
+          },
+          Confidence: 98.60913848876953
+        },
+        {
+          BoundingBox: {
+            Height: 0.5488303899765015,
+            Left: 0.42065808176994324,
+            Top: 0.4317392408847809,
+            Width: 0.0753241553902626
+          },
+          Confidence: 96.73947143554688
+        },
+        {
+          BoundingBox: {
+            Height: 0.7228844165802002,
+            Left: 0.4312688112258911,
+            Top: 0.24731779098510742,
+            Width: 0.08884869515895844
+          },
+          Confidence: 81.42308807373047
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.67350006103516,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 98.0450439453125,
+      Instances: [],
+      Name: "Crowd",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 84.94917297363281,
+      Instances: [],
+      Name: "Lighting",
+      Parents: []
+    },
+    {
+      Confidence: 83.80278778076172,
+      Instances: [],
+      Name: "Huddle",
+      Parents: [{
+          Name: "Crowd"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 68.4509506225586,
+      Instances: [],
+      Name: "Audience",
+      Parents: [{
+          Name: "Crowd"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 67.935302734375,
+      Instances: [],
+      Name: "Leisure Activities",
+      Parents: []
+    },
+    {
+      Confidence: 63.600948333740234,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 63.600948333740234,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 60.735191345214844,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 57.66164016723633,
+      Instances: [],
+      Name: "Concert",
+      Parents: [{
+          Name: "Crowd"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 55.83863067626953,
+      Instances: [],
+      Name: "Sunlight",
+      Parents: []
+    }
+  ]
+}

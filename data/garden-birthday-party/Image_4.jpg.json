@@ -1,0 +1,78 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.87799835205078,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.5848269462585449,
+            Left: 0.3786669075489044,
+            Top: 0.23506620526313782,
+            Width: 0.3381752669811249
+          },
+          Confidence: 99.82814025878906
+        },
+        {
+          BoundingBox: {
+            Height: 0.6574455499649048,
+            Left: 0.08426350355148315,
+            Top: 0.12331067025661469,
+            Width: 0.2978608310222626
+          },
+          Confidence: 99.75618743896484
+        },
+        {
+          BoundingBox: {
+            Height: 0.5293323993682861,
+            Left: 0.6252837181091309,
+            Top: 0.4541153609752655,
+            Width: 0.23584142327308655
+          },
+          Confidence: 99.61052703857422
+        },
+        {
+          BoundingBox: {
+            Height: 0.3344061076641083,
+            Left: 0.17231051623821259,
+            Top: 0.4734548330307007,
+            Width: 0.21359783411026
+          },
+          Confidence: 99.60389709472656
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.87799835205078,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 99.87799835205078,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.77680969238281,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    },
+    {
+      Confidence: 55.90760803222656,
+      Instances: [],
+      Name: "Leisure Activities",
+      Parents: []
+    }
+  ]
+}

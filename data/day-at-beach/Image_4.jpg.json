@@ -1,0 +1,92 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.67276000976562,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.6209940910339355,
+            Left: 0.3655967712402344,
+            Top: 0.18138067424297333,
+            Width: 0.1281621754169464
+          },
+          Confidence: 99.67276000976562
+        },
+        {
+          BoundingBox: {
+            Height: 0.6976548433303833,
+            Left: 0.1341860294342041,
+            Top: 0.07847089320421219,
+            Width: 0.1790177971124649
+          },
+          Confidence: 99.64704895019531
+        },
+        {
+          BoundingBox: {
+            Height: 0.500135064125061,
+            Left: 0.6687272787094116,
+            Top: 0.42867347598075867,
+            Width: 0.1463881880044937
+          },
+          Confidence: 99.47521209716797
+        },
+        {
+          BoundingBox: {
+            Height: 0.47117945551872253,
+            Left: 0.514181911945343,
+            Top: 0.33422383666038513,
+            Width: 0.10531213134527206
+          },
+          Confidence: 99.16181182861328
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.67276000976562,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.44577026367188,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    },
+    {
+      Confidence: 99.44577026367188,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 73.9635238647461,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 73.9635238647461,
+      Instances: [],
+      Name: "Shorts",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 73.9635238647461,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    }
+  ]
+}

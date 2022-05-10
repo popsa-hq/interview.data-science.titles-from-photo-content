@@ -1,0 +1,118 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.74351501464844,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.7581589221954346,
+            Left: 0.003364264266565442,
+            Top: 0.12265847623348236,
+            Width: 0.5006835460662842
+          },
+          Confidence: 99.74351501464844
+        },{
+          BoundingBox: {
+            Height: 0.6728259325027466,
+            Left: 0.34782442450523376,
+            Top: 0.14382925629615784,
+            Width: 0.5791003108024597
+          },
+          Confidence: 99.39727020263672
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.74351501464844,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 97.7641830444336,
+      Instances: [],
+      Name: "Doctor",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 93.70986938476562,
+      Instances: [],
+      Name: "Mammal",
+      Parents: [{
+          Name: "Animal"
+        }]
+    },
+    {
+      Confidence: 93.70986938476562,
+      Instances: [],
+      Name: "Pet",
+      Parents: [{
+          Name: "Animal"
+        }]
+    },
+    {
+      Confidence: 93.70986938476562,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.38265588879585266,
+            Left: 0.05965901538729668,
+            Top: 0.611903190612793,
+            Width: 0.8158684968948364
+          },
+          Confidence: 93.70986938476562
+        }],
+      Name: "Dog",
+      Parents: [
+        {
+          Name: "Pet"
+        },
+        {
+          Name: "Canine"
+        },
+        {
+          Name: "Animal"
+        },
+        {
+          Name: "Mammal"
+        }
+      ]
+    },
+    {
+      Confidence: 93.70986938476562,
+      Instances: [],
+      Name: "Canine",
+      Parents: [{
+          Name: "Mammal"
+        },{
+          Name: "Animal"
+        }]
+    },
+    {
+      Confidence: 93.70986938476562,
+      Instances: [],
+      Name: "Animal",
+      Parents: []
+    },
+    {
+      Confidence: 92.02729797363281,
+      Instances: [],
+      Name: "Veterinarian",
+      Parents: [{
+          Name: "Doctor"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 66.6058120727539,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    }
+  ]
+}

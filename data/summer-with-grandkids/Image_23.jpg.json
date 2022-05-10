@@ -1,0 +1,121 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.49308776855469,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.49308776855469,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8834684491157532,
+            Left: 0.003210922237485647,
+            Top: 0.10410274565219879,
+            Width: 0.378779798746109
+          },
+          Confidence: 99.49308776855469
+        },{
+          BoundingBox: {
+            Height: 0.6752039194107056,
+            Left: 0.6226235628128052,
+            Top: 0.31450244784355164,
+            Width: 0.3751213252544403
+          },
+          Confidence: 99.19155883789062
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 84.0979995727539,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 82.02099609375,
+      Instances: [],
+      Name: "Boy",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 80.82846069335938,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 80.82846069335938,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 71.3018569946289,
+      Instances: [],
+      Name: "Child",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 71.3018569946289,
+      Instances: [],
+      Name: "Kid",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 62.91293716430664,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 58.007041931152344,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Female"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 58.007041931152344,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 57.46519088745117,
+      Instances: [],
+      Name: "Smile",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Face"
+        }]
+    },
+    {
+      Confidence: 56.16267776489258,
+      Instances: [],
+      Name: "Pants",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    }
+  ]
+}

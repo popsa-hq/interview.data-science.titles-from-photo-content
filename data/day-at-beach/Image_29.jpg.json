@@ -1,0 +1,93 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.77008819580078,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.77008819580078,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8783844113349915,
+            Left: 0.12601904571056366,
+            Top: 0.10531359165906906,
+            Width: 0.5315805673599243
+          },
+          Confidence: 99.77008819580078
+        },{
+          BoundingBox: {
+            Height: 0.9328387379646301,
+            Left: 0.5674892663955688,
+            Top: 0.04850507155060768,
+            Width: 0.40256762504577637
+          },
+          Confidence: 99.03178405761719
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 91.84412384033203,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 88.31491088867188,
+      Instances: [],
+      Name: "Hand",
+      Parents: []
+    },
+    {
+      Confidence: 81.41043853759766,
+      Instances: [],
+      Name: "Dating",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 79.75697326660156,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 79.75697326660156,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 66.22199249267578,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "People"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 62.603004455566406,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 55.86604309082031,
+      Instances: [],
+      Name: "Pants",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    }
+  ]
+}

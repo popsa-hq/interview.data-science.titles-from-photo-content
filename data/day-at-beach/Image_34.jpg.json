@@ -1,0 +1,76 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.6760025024414,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.929194450378418,
+            Left: 0.7618882060050964,
+            Top: 0.05962183326482773,
+            Width: 0.23370446264743805
+          },
+          Confidence: 99.6760025024414
+        },
+        {
+          BoundingBox: {
+            Height: 0.7890027761459351,
+            Left: 0.6680331826210022,
+            Top: 0.18128342926502228,
+            Width: 0.21297729015350342
+          },
+          Confidence: 99.61058807373047
+        },
+        {
+          BoundingBox: {
+            Height: 0.7467644810676575,
+            Left: 0.002376113785430789,
+            Top: 0.2467888742685318,
+            Width: 0.12044213712215424
+          },
+          Confidence: 99.53572082519531
+        },
+        {
+          BoundingBox: {
+            Height: 0.7961670160293579,
+            Left: 0.3257099390029907,
+            Top: 0.19445134699344635,
+            Width: 0.2863832116127014
+          },
+          Confidence: 99.0106201171875
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.6760025024414,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 81.99844360351562,
+      Instances: [],
+      Name: "Toy",
+      Parents: []
+    },
+    {
+      Confidence: 79.2336196899414,
+      Instances: [],
+      Name: "Kite",
+      Parents: [{
+          Name: "Toy"
+        }]
+    },
+    {
+      Confidence: 59.2957878112793,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    }
+  ]
+}

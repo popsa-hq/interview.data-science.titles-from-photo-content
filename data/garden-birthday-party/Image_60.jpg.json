@@ -1,0 +1,201 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.84133911132812,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.84133911132812,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.8598741888999939,
+            Left: 0.00025454710703343153,
+            Top: 0.04458269849419594,
+            Width: 0.3220979869365692
+          },
+          Confidence: 99.84133911132812
+        },
+        {
+          BoundingBox: {
+            Height: 0.5442415475845337,
+            Left: 0.23129211366176605,
+            Top: 0.3089927136898041,
+            Width: 0.2887530028820038
+          },
+          Confidence: 99.83441162109375
+        },
+        {
+          BoundingBox: {
+            Height: 0.5747511386871338,
+            Left: 0.44100421667099,
+            Top: 0.23366883397102356,
+            Width: 0.19658337533473969
+          },
+          Confidence: 99.51597595214844
+        },
+        {
+          BoundingBox: {
+            Height: 0.7676217555999756,
+            Left: 0.7669353485107422,
+            Top: 0.17463578283786774,
+            Width: 0.23032361268997192
+          },
+          Confidence: 99.45172882080078
+        },
+        {
+          BoundingBox: {
+            Height: 0.52242511510849,
+            Left: 0.583670437335968,
+            Top: 0.4181172251701355,
+            Width: 0.31049293279647827
+          },
+          Confidence: 99.28009796142578
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.68380737304688,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 99.68380737304688,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 99.4385986328125,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.21074005961418152,
+            Left: 0.7652868628501892,
+            Top: 0.1687924861907959,
+            Width: 0.23371313512325287
+          },
+          Confidence: 99.4385986328125
+        }],
+      Name: "Hat",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 98.13497924804688,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 86.17180633544922,
+      Instances: [],
+      Name: "Party Hat",
+      Parents: [{
+          Name: "Clothing"
+        },{
+          Name: "Hat"
+        }]
+    },
+    {
+      Confidence: 83.56600952148438,
+      Instances: [],
+      Name: "Birthday Party",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    },
+    {
+      Confidence: 74.69438934326172,
+      Instances: [],
+      Name: "Drink",
+      Parents: []
+    },
+    {
+      Confidence: 74.69438934326172,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.18567536771297455,
+            Left: 0.8110061287879944,
+            Top: 0.8115195035934448,
+            Width: 0.11822570860385895
+          },
+          Confidence: 74.69438934326172
+        }],
+      Name: "Beer",
+      Parents: [{
+          Name: "Alcohol"
+        },{
+          Name: "Beverage"
+        }]
+    },
+    {
+      Confidence: 74.69438934326172,
+      Instances: [],
+      Name: "Alcohol",
+      Parents: [{
+          Name: "Beverage"
+        }]
+    },
+    {
+      Confidence: 74.69438934326172,
+      Instances: [],
+      Name: "Beverage",
+      Parents: []
+    },
+    {
+      Confidence: 63.7154655456543,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 63.7154655456543,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.17686082422733307,
+            Left: 0.434518426656723,
+            Top: 0.7575222849845886,
+            Width: 0.28228455781936646
+          },
+          Confidence: 63.7154655456543
+        }],
+      Name: "Birthday Cake",
+      Parents: [{
+          Name: "Dessert"
+        },{
+          Name: "Food"
+        },{
+          Name: "Cake"
+        }]
+    },
+    {
+      Confidence: 63.7154655456543,
+      Instances: [],
+      Name: "Cake",
+      Parents: [{
+          Name: "Dessert"
+        },{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 63.7154655456543,
+      Instances: [],
+      Name: "Dessert",
+      Parents: [{
+          Name: "Food"
+        }]
+    }
+  ]
+}

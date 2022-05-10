@@ -1,0 +1,203 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 97.88859558105469,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.7589724063873291,
+            Left: 0.21988093852996826,
+            Top: 0.2269957959651947,
+            Width: 0.7787857055664062
+          },
+          Confidence: 97.88859558105469
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 97.88859558105469,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 87.15877532958984,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 82.50469970703125,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 82.50469970703125,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 82.50469970703125,
+      Instances: [],
+      Name: "Teen",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 82.50469970703125,
+      Instances: [],
+      Name: "Kid",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 82.50469970703125,
+      Instances: [],
+      Name: "Woman",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 82.50469970703125,
+      Instances: [],
+      Name: "Blonde",
+      Parents: [
+        {
+          Name: "Person"
+        },
+        {
+          Name: "Female"
+        },
+        {
+          Name: "Girl"
+        },
+        {
+          Name: "Teen"
+        },
+        {
+          Name: "Kid"
+        },
+        {
+          Name: "Woman"
+        }
+      ]
+    },
+    {
+      Confidence: 82.50469970703125,
+      Instances: [],
+      Name: "Child",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 64.24177551269531,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 63.32105255126953,
+      Instances: [],
+      Name: "Zoo",
+      Parents: [{
+          Name: "Animal"
+        }]
+    },
+    {
+      Confidence: 63.32105255126953,
+      Instances: [],
+      Name: "Animal",
+      Parents: []
+    },
+    {
+      Confidence: 58.85653305053711,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 58.85653305053711,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 57.47076416015625,
+      Instances: [],
+      Name: "Mammal",
+      Parents: [{
+          Name: "Animal"
+        }]
+    },
+    {
+      Confidence: 57.47076416015625,
+      Instances: [],
+      Name: "Bear",
+      Parents: [{
+          Name: "Mammal"
+        },{
+          Name: "Wildlife"
+        },{
+          Name: "Animal"
+        }]
+    },
+    {
+      Confidence: 57.47076416015625,
+      Instances: [],
+      Name: "Wildlife",
+      Parents: [{
+          Name: "Animal"
+        }]
+    },
+    {
+      Confidence: 57.47076416015625,
+      Instances: [],
+      Name: "Lesser Panda",
+      Parents: [
+        {
+          Name: "Bear"
+        },
+        {
+          Name: "Mammal"
+        },
+        {
+          Name: "Wildlife"
+        },
+        {
+          Name: "Animal"
+        }
+      ]
+    },
+    {
+      Confidence: 56.07305908203125,
+      Instances: [],
+      Name: "Plant",
+      Parents: []
+    },
+    {
+      Confidence: 55.12215805053711,
+      Instances: [],
+      Name: "Boy",
+      Parents: [{
+          Name: "Person"
+        }]
+    }
+  ]
+}

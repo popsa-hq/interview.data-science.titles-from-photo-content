@@ -1,0 +1,105 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.39627075195312,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.39627075195312,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.650277316570282,
+            Left: 0.3505970537662506,
+            Top: 0.13186563551425934,
+            Width: 0.5601046085357666
+          },
+          Confidence: 99.39627075195312
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 96.5912857055664,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 95.30536651611328,
+      Instances: [],
+      Name: "Dating",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 80.97190856933594,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Female"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 75.6407470703125,
+      Instances: [],
+      Name: "Woman",
+      Parents: [{
+          Name: "Female"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 73.04499816894531,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 69.66864776611328,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 64.65133666992188,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 60.23054504394531,
+      Instances: [],
+      Name: "Dessert",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 59.50349426269531,
+      Instances: [],
+      Name: "Cake",
+      Parents: [{
+          Name: "Food"
+        },{
+          Name: "Dessert"
+        }]
+    },
+    {
+      Confidence: 55.34654235839844,
+      Instances: [],
+      Name: "Furniture",
+      Parents: []
+    }
+  ]
+}

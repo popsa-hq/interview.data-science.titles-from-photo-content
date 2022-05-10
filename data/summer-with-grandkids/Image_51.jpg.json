@@ -1,0 +1,187 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.0566635131836,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.0566635131836,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8812679052352905,
+            Left: 0.5617895722389221,
+            Top: 0.08820011466741562,
+            Width: 0.43721044063568115
+          },
+          Confidence: 99.0566635131836
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 93.85418701171875,
+      Instances: [],
+      Name: "Indoors",
+      Parents: []
+    },
+    {
+      Confidence: 93.85418701171875,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.4136020541191101,
+            Left: 0,
+            Top: 0.24765795469284058,
+            Width: 0.3147263824939728
+          },
+          Confidence: 93.85418701171875
+        }],
+      Name: "Cooktop",
+      Parents: [{
+          Name: "Indoors"
+        }]
+    },
+    {
+      Confidence: 88.48600006103516,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 88.18245697021484,
+      Instances: [],
+      Name: "Cookie",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 88.18245697021484,
+      Instances: [],
+      Name: "Biscuit",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 86.70335388183594,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.09479158371686935,
+            Left: 0.3217777907848358,
+            Top: 0.4687623679637909,
+            Width: 0.12380243092775345
+          },
+          Confidence: 86.70335388183594
+        },{
+          BoundingBox: {
+            Height: 0.0985288918018341,
+            Left: 0.3110467791557312,
+            Top: 0.5615364909172058,
+            Width: 0.1251405030488968
+          },
+          Confidence: 74.8814926147461
+        },{
+          BoundingBox: {
+            Height: 0.10418090969324112,
+            Left: 0.45169898867607117,
+            Top: 0.5147526860237122,
+            Width: 0.11098761111497879
+          },
+          Confidence: 66.7596664428711
+        }],
+      Name: "Bread",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 80.7666244506836,
+      Instances: [],
+      Name: "Oven",
+      Parents: [{
+          Name: "Appliance"
+        }]
+    },
+    {
+      Confidence: 80.7666244506836,
+      Instances: [],
+      Name: "Appliance",
+      Parents: []
+    },
+    {
+      Confidence: 77.41443634033203,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 77.41443634033203,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.4657621681690216,
+            Left: 0.6446937322616577,
+            Top: 0.5153446197509766,
+            Width: 0.33271533250808716
+          },
+          Confidence: 77.41443634033203
+        }],
+      Name: "Scarf",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 77.41443634033203,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 74.9001235961914,
+      Instances: [],
+      Name: "Sweets",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 74.9001235961914,
+      Instances: [],
+      Name: "Confectionery",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 60.56231689453125,
+      Instances: [],
+      Name: "Shelf",
+      Parents: []
+    },
+    {
+      Confidence: 57.43339920043945,
+      Instances: [],
+      Name: "Shop",
+      Parents: []
+    },
+    {
+      Confidence: 57.43339920043945,
+      Instances: [],
+      Name: "Bakery",
+      Parents: [{
+          Name: "Shop"
+        }]
+    },
+    {
+      Confidence: 56.43681716918945,
+      Instances: [],
+      Name: "Room",
+      Parents: [{
+          Name: "Indoors"
+        }]
+    }
+  ]
+}

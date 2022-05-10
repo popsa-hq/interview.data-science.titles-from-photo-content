@@ -1,0 +1,95 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.80088806152344,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 99.80088806152344,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 94.44258880615234,
+      Instances: [],
+      Name: "Party Hat",
+      Parents: [{
+          Name: "Hat"
+        },{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 94.44258880615234,
+      Instances: [],
+      Name: "Hat",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 92.8955078125,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 92.8955078125,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.4529379606246948,
+            Left: 0.3085342049598694,
+            Top: 0.18433816730976105,
+            Width: 0.6017764806747437
+          },
+          Confidence: 92.8955078125
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 77.75077819824219,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 66.16999816894531,
+      Instances: [],
+      Name: "Ball",
+      Parents: []
+    },
+    {
+      Confidence: 66.16999816894531,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.496157705783844,
+            Left: 0.055246803909540176,
+            Top: 0.023837173357605934,
+            Width: 0.8789553046226501
+          },
+          Confidence: 66.16999816894531
+        }],
+      Name: "Balloon",
+      Parents: [{
+          Name: "Ball"
+        }]
+    },
+    {
+      Confidence: 57.066192626953125,
+      Instances: [],
+      Name: "Birthday Party",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    }
+  ]
+}

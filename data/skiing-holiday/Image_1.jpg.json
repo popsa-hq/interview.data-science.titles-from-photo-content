@@ -1,0 +1,120 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.84699249267578,
+      Instances: [],
+      Name: "Nature",
+      Parents: []
+    },
+    {
+      Confidence: 99.84699249267578,
+      Instances: [],
+      Name: "Mountain",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 99.84699249267578,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 99.24568176269531,
+      Instances: [],
+      Name: "Mountain Range",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        },{
+          Name: "Mountain"
+        }]
+    },
+    {
+      Confidence: 99.13645935058594,
+      Instances: [],
+      Name: "Ice",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 97.78955841064453,
+      Instances: [],
+      Name: "Peak",
+      Parents: [
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Nature"
+        },
+        {
+          Name: "Mountain Range"
+        },
+        {
+          Name: "Mountain"
+        }
+      ]
+    },
+    {
+      Confidence: 95.64617156982422,
+      Instances: [],
+      Name: "Snow",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 92.92916870117188,
+      Instances: [],
+      Name: "Glacier",
+      Parents: [
+        {
+          Name: "Snow"
+        },
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Ice"
+        },
+        {
+          Name: "Nature"
+        },
+        {
+          Name: "Mountain"
+        }
+      ]
+    },
+    {
+      Confidence: 85.67037200927734,
+      Instances: [],
+      Name: "Slope",
+      Parents: []
+    },
+    {
+      Confidence: 57.35581970214844,
+      Instances: [],
+      Name: "Adventure",
+      Parents: [{
+          Name: "Leisure Activities"
+        }]
+    },
+    {
+      Confidence: 57.35581970214844,
+      Instances: [],
+      Name: "Leisure Activities",
+      Parents: []
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 98.32408905029297,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 98.24323272705078,
+      Instances: [],
+      Name: "Nature",
+      Parents: []
+    },
+    {
+      Confidence: 93.71011352539062,
+      Instances: [],
+      Name: "Snow",
+      Parents: [{
+          Name: "Nature"
+        },{
+          Name: "Outdoors"
+        }]
+    },
+    {
+      Confidence: 89.65477752685547,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.05358259752392769,
+            Left: 0.4236573278903961,
+            Top: 0.5080276727676392,
+            Width: 0.040875304490327835
+          },
+          Confidence: 89.65477752685547
+        },
+        {
+          BoundingBox: {
+            Height: 0.23153477907180786,
+            Left: 0.35826659202575684,
+            Top: 0.4981882870197296,
+            Width: 0.04483752325177193
+          },
+          Confidence: 82.8636474609375
+        },
+        {
+          BoundingBox: {
+            Height: 0.10530728101730347,
+            Left: 0.4740806221961975,
+            Top: 0.4574064016342163,
+            Width: 0.06302209198474884
+          },
+          Confidence: 81.08782196044922
+        },
+        {
+          BoundingBox: {
+            Height: 0.2671617567539215,
+            Left: 0.468917578458786,
+            Top: 0.46998775005340576,
+            Width: 0.07029452174901962
+          },
+          Confidence: 80.91303253173828
+        },
+        {
+          BoundingBox: {
+            Height: 0.25824496150016785,
+            Left: 0.5972037315368652,
+            Top: 0.48600271344184875,
+            Width: 0.0457000732421875
+          },
+          Confidence: 78.86738586425781
+        },
+        {
+          BoundingBox: {
+            Height: 0.06670630723237991,
+            Left: 0.5944743156433105,
+            Top: 0.49200940132141113,
+            Width: 0.04303393512964249
+          },
+          Confidence: 61.60454559326172
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 89.65477752685547,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 86.86829376220703,
+      Instances: [],
+      Name: "Winter",
+      Parents: []
+    },
+    {
+      Confidence: 84.04281616210938,
+      Instances: [],
+      Name: "Vehicle",
+      Parents: [{
+          Name: "Transportation"
+        }]
+    },
+    {
+      Confidence: 84.04281616210938,
+      Instances: [],
+      Name: "Transportation",
+      Parents: []
+    },
+    {
+      Confidence: 71.37518310546875,
+      Instances: [],
+      Name: "Storm",
+      Parents: [{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 67.83465576171875,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.9091259837150574,
+            Left: 0.27374669909477234,
+            Top: 0.04489339515566826,
+            Width: 0.6842139959335327
+          },
+          Confidence: 67.83465576171875
+        }],
+      Name: "Utility Pole",
+      Parents: []
+    },
+    {
+      Confidence: 63.7298583984375,
+      Instances: [],
+      Name: "Cable Car",
+      Parents: [{
+          Name: "Vehicle"
+        },{
+          Name: "Transportation"
+        }]
+    },
+    {
+      Confidence: 59.14910888671875,
+      Instances: [],
+      Name: "Blizzard",
+      Parents: [
+        {
+          Name: "Winter"
+        },
+        {
+          Name: "Nature"
+        },
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Snow"
+        },
+        {
+          Name: "Storm"
+        }
+      ]
+    }
+  ]
+}

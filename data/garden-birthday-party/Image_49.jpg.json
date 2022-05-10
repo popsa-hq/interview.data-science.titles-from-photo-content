@@ -1,0 +1,122 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.79459381103516,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.79459381103516,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.38964855670928955,
+            Left: 0.019035156816244125,
+            Top: 0.39993590116500854,
+            Width: 0.4091842770576477
+          },
+          Confidence: 99.79459381103516
+        },
+        {
+          BoundingBox: {
+            Height: 0.3017500042915344,
+            Left: 0.6795163750648499,
+            Top: 0.4333285987377167,
+            Width: 0.31623414158821106
+          },
+          Confidence: 99.78238677978516
+        },
+        {
+          BoundingBox: {
+            Height: 0.3246164619922638,
+            Left: 0.49433693289756775,
+            Top: 0.3697696030139923,
+            Width: 0.2873293161392212
+          },
+          Confidence: 99.72264862060547
+        },
+        {
+          BoundingBox: {
+            Height: 0.4625447988510132,
+            Left: 0.28003183007240295,
+            Top: 0.296362966299057,
+            Width: 0.24045753479003906
+          },
+          Confidence: 99.06426239013672
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 98.83365631103516,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 98.66694641113281,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    },
+    {
+      Confidence: 77.3929672241211,
+      Instances: [],
+      Name: "Vacation",
+      Parents: []
+    },
+    {
+      Confidence: 69.54041290283203,
+      Instances: [],
+      Name: "Beverage",
+      Parents: []
+    },
+    {
+      Confidence: 69.54041290283203,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.1564481258392334,
+            Left: 0.27762648463249207,
+            Top: 0.67258220911026,
+            Width: 0.11736372858285904
+          },
+          Confidence: 69.54041290283203
+        }],
+      Name: "Beer",
+      Parents: [{
+          Name: "Beverage"
+        },{
+          Name: "Alcohol"
+        }]
+    },
+    {
+      Confidence: 69.54041290283203,
+      Instances: [],
+      Name: "Drink",
+      Parents: []
+    },
+    {
+      Confidence: 69.54041290283203,
+      Instances: [],
+      Name: "Alcohol",
+      Parents: [{
+          Name: "Beverage"
+        }]
+    },
+    {
+      Confidence: 64.5107421875,
+      Instances: [],
+      Name: "Leisure Activities",
+      Parents: []
+    }
+  ]
+}

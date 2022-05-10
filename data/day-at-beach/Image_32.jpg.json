@@ -1,0 +1,90 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.8359146118164,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.8359146118164,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.9675523638725281,
+            Left: 0.17512355744838715,
+            Top: 0.020685402676463127,
+            Width: 0.23963047564029694
+          },
+          Confidence: 99.8359146118164
+        },
+        {
+          BoundingBox: {
+            Height: 0.531943678855896,
+            Left: 0.4549359679222107,
+            Top: 0.4621395766735077,
+            Width: 0.13455188274383545
+          },
+          Confidence: 99.75098419189453
+        },
+        {
+          BoundingBox: {
+            Height: 0.6177331209182739,
+            Left: 0.6455624103546143,
+            Top: 0.34651392698287964,
+            Width: 0.13703344762325287
+          },
+          Confidence: 99.5211181640625
+        },
+        {
+          BoundingBox: {
+            Height: 0.6605885624885559,
+            Left: 0.7375452518463135,
+            Top: 0.3269282281398773,
+            Width: 0.1418115198612213
+          },
+          Confidence: 99.30484008789062
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 88.66316986083984,
+      Instances: [],
+      Name: "Toy",
+      Parents: []
+    },
+    {
+      Confidence: 77.1344985961914,
+      Instances: [],
+      Name: "Kite",
+      Parents: [{
+          Name: "Toy"
+        }]
+    },
+    {
+      Confidence: 63.05411148071289,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 56.67477798461914,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.5086454153060913,
+            Left: 0.2301701158285141,
+            Top: 0.40848445892333984,
+            Width: 0.2951909899711609
+          },
+          Confidence: 56.67477798461914
+        }],
+      Name: "Tent",
+      Parents: []
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.8232421875,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.9875702857971191,
+            Left: 0.171602264046669,
+            Top: 0.006243937183171511,
+            Width: 0.8273977041244507
+          },
+          Confidence: 99.0205078125
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.8232421875,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 99.8232421875,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 79.81783294677734,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 70.4469985961914,
+      Instances: [],
+      Name: "Photo",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 70.4469985961914,
+      Instances: [],
+      Name: "Photography",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 70.4469985961914,
+      Instances: [],
+      Name: "Portrait",
+      Parents: [{
+          Name: "Face"
+        },{
+          Name: "Photography"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 63.089744567871094,
+      Instances: [],
+      Name: "Biscuit",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 63.089744567871094,
+      Instances: [],
+      Name: "Cookie",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 62.74281311035156,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.15636877715587616,
+            Left: 0.028498711064457893,
+            Top: 0.5586575865745544,
+            Width: 0.1528102159500122
+          },
+          Confidence: 62.74281311035156
+        }],
+      Name: "Bread",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 60.817481994628906,
+      Instances: [],
+      Name: "Head",
+      Parents: []
+    }
+  ]
+}

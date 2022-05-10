@@ -1,0 +1,257 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.71387481689453,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 99.71387481689453,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 99.29993438720703,
+      Instances: [],
+      Name: "Accessory",
+      Parents: []
+    },
+    {
+      Confidence: 99.29993438720703,
+      Instances: [],
+      Name: "Accessories",
+      Parents: []
+    },
+    {
+      Confidence: 99.29993438720703,
+      Instances: [],
+      Name: "Goggles",
+      Parents: [{
+          Name: "Accessories"
+        }]
+    },
+    {
+      Confidence: 99.08712768554688,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.08712768554688,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.7473031878471375,
+            Left: 0.021321609616279602,
+            Top: 0.23350374400615692,
+            Width: 0.4286476969718933
+          },
+          Confidence: 99.08712768554688
+        },
+        {
+          BoundingBox: {
+            Height: 0.5971976518630981,
+            Left: 0.0018332748441025615,
+            Top: 0.3170667588710785,
+            Width: 0.1475786417722702
+          },
+          Confidence: 98.30093383789062
+        },
+        {
+          BoundingBox: {
+            Height: 0.9364262819290161,
+            Left: 0.33976268768310547,
+            Top: 0.062072157859802246,
+            Width: 0.6592373251914978
+          },
+          Confidence: 97.0517578125
+        },
+        {
+          BoundingBox: {
+            Height: 0.7070068717002869,
+            Left: 0.2117891013622284,
+            Top: 0.277679979801178,
+            Width: 0.3720324635505676
+          },
+          Confidence: 94.61322784423828
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 97.20088195800781,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.19562265276908875,
+            Left: 0.43101370334625244,
+            Top: 0.3674626052379608,
+            Width: 0.19421078264713287
+          },
+          Confidence: 97.20088195800781
+        },
+        {
+          BoundingBox: {
+            Height: 0.12028961628675461,
+            Left: 0.12344390898942947,
+            Top: 0.32114771008491516,
+            Width: 0.1121968999505043
+          },
+          Confidence: 86.7254638671875
+        },
+        {
+          BoundingBox: {
+            Height: 0.15690480172634125,
+            Left: 0.32718417048454285,
+            Top: 0.4146474301815033,
+            Width: 0.12654425203800201
+          },
+          Confidence: 85.67090606689453
+        },
+        {
+          BoundingBox: {
+            Height: 0.21808621287345886,
+            Left: 0.5813695192337036,
+            Top: 0.15608574450016022,
+            Width: 0.2654177248477936
+          },
+          Confidence: 67.26068115234375
+        }
+      ],
+      Name: "Sunglasses",
+      Parents: [{
+          Name: "Accessories"
+        }]
+    },
+    {
+      Confidence: 94.35155487060547,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.23917074501514435,
+            Left: 0.320975124835968,
+            Top: 0.3597968518733978,
+            Width: 0.14657458662986755
+          },
+          Confidence: 94.35155487060547
+        },{
+          BoundingBox: {
+            Height: 0.2090967297554016,
+            Left: 0.011418892070651054,
+            Top: 0.3187759816646576,
+            Width: 0.13647714257240295
+          },
+          Confidence: 88.92363739013672
+        },{
+          BoundingBox: {
+            Height: 0.3870035707950592,
+            Left: 0.08189498633146286,
+            Top: 0.2256467044353485,
+            Width: 0.3108462393283844
+          },
+          Confidence: 74.30007934570312
+        }],
+      Name: "Helmet",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 79.9841079711914,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.5221525430679321,
+            Left: 0.5655132532119751,
+            Top: 0.012313270010054111,
+            Width: 0.4334867596626282
+          },
+          Confidence: 79.9841079711914
+        }],
+      Name: "Hat",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 77.92656707763672,
+      Instances: [],
+      Name: "Water",
+      Parents: []
+    },
+    {
+      Confidence: 73.00189208984375,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 70.7557601928711,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.4677759110927582,
+            Left: 0.5648781657218933,
+            Top: 0.5151673555374146,
+            Width: 0.3723210394382477
+          },
+          Confidence: 70.7557601928711
+        }],
+      Name: "Scarf",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 68.50372314453125,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 66.5373306274414,
+      Instances: [],
+      Name: "Sports",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 66.5373306274414,
+      Instances: [],
+      Name: "Sport",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 66.22942352294922,
+      Instances: [],
+      Name: "Coat",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 60.886871337890625,
+      Instances: [],
+      Name: "Cap",
+      Parents: [{
+          Name: "Clothing"
+        },{
+          Name: "Hat"
+        }]
+    },
+    {
+      Confidence: 57.1889762878418,
+      Instances: [],
+      Name: "Costume",
+      Parents: []
+    }
+  ]
+}

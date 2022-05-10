@@ -1,0 +1,97 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.31452941894531,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.31452941894531,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.9299347400665283,
+            Left: 0.16150394082069397,
+            Top: 0.028590159490704536,
+            Width: 0.5185692310333252
+          },
+          Confidence: 99.31452941894531
+        },{
+          BoundingBox: {
+            Height: 0.7387470602989197,
+            Left: 0.4079769253730774,
+            Top: 0.2234492301940918,
+            Width: 0.5172659754753113
+          },
+          Confidence: 96.2714614868164
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 89.34882354736328,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 87.8105239868164,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 85.20203399658203,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 73.77164459228516,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 73.77164459228516,
+      Instances: [],
+      Name: "Eating",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 70.61328125,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 67.43171691894531,
+      Instances: [],
+      Name: "Plant",
+      Parents: []
+    },
+    {
+      Confidence: 59.50569534301758,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    }
+  ]
+}

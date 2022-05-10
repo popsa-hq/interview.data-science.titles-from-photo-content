@@ -1,0 +1,167 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.9061279296875,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.7864800095558167,
+            Left: 0.00030158995650708675,
+            Top: 0.1904108077287674,
+            Width: 0.37706151604652405
+          },
+          Confidence: 99.9061279296875
+        },{
+          BoundingBox: {
+            Height: 0.6252723336219788,
+            Left: 0.41447922587394714,
+            Top: 0.23510600626468658,
+            Width: 0.27278849482536316
+          },
+          Confidence: 99.78069305419922
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.9061279296875,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 98.66781616210938,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.13926655054092407,
+            Left: 0.44206807017326355,
+            Top: 0.22549067437648773,
+            Width: 0.17398172616958618
+          },
+          Confidence: 98.66781616210938
+        }],
+      Name: "Hat",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 98.66781616210938,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 98.66781616210938,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 98.23936462402344,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 93.80804443359375,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    },
+    {
+      Confidence: 89.82228088378906,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.26904135942459106,
+            Left: 0.8744502067565918,
+            Top: 0.6541311740875244,
+            Width: 0.12454980611801147
+          },
+          Confidence: 89.82228088378906
+        }],
+      Name: "Bench",
+      Parents: [{
+          Name: "Furniture"
+        }]
+    },
+    {
+      Confidence: 89.82228088378906,
+      Instances: [],
+      Name: "Furniture",
+      Parents: []
+    },
+    {
+      Confidence: 82.8088150024414,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 82.8088150024414,
+      Instances: [],
+      Name: "Meal",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 78.81234741210938,
+      Instances: [],
+      Name: "Leisure Activities",
+      Parents: []
+    },
+    {
+      Confidence: 75.43355560302734,
+      Instances: [],
+      Name: "Vacation",
+      Parents: []
+    },
+    {
+      Confidence: 67.48041534423828,
+      Instances: [],
+      Name: "Picnic",
+      Parents: [
+        {
+          Name: "Vacation"
+        },
+        {
+          Name: "Meal"
+        },
+        {
+          Name: "Food"
+        },
+        {
+          Name: "Leisure Activities"
+        },
+        {
+          Name: "Person"
+        }
+      ]
+    },
+    {
+      Confidence: 62.072181701660156,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 62.072181701660156,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    }
+  ]
+}

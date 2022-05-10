@@ -1,0 +1,183 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.71822357177734,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.71822357177734,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.651847779750824,
+            Left: 0.5740955471992493,
+            Top: 0.3456868827342987,
+            Width: 0.42440295219421387
+          },
+          Confidence: 99.71822357177734
+        },{
+          BoundingBox: {
+            Height: 0.508021354675293,
+            Left: 0.0143286669626832,
+            Top: 0.2725124657154083,
+            Width: 0.5282783508300781
+          },
+          Confidence: 99.6164321899414
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.7121810913086,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.11682641506195068,
+            Left: 0.17578798532485962,
+            Top: 0.26937782764434814,
+            Width: 0.3126344382762909
+          },
+          Confidence: 99.7121810913086
+        }],
+      Name: "Hat",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 99.7121810913086,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 99.7121810913086,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 93.58099365234375,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 93.58099365234375,
+      Instances: [],
+      Name: "Meal",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 89.38211059570312,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 85.8502197265625,
+      Instances: [],
+      Name: "Lunch",
+      Parents: [{
+          Name: "Meal"
+        },{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 82.67255401611328,
+      Instances: [],
+      Name: "Eating",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 74.9915771484375,
+      Instances: [],
+      Name: "Leisure Activities",
+      Parents: []
+    },
+    {
+      Confidence: 74.00538635253906,
+      Instances: [],
+      Name: "Vacation",
+      Parents: []
+    },
+    {
+      Confidence: 73.78677368164062,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 73.5544662475586,
+      Instances: [],
+      Name: "Sun Hat",
+      Parents: [{
+          Name: "Clothing"
+        },{
+          Name: "Hat"
+        }]
+    },
+    {
+      Confidence: 67.8365478515625,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Female"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 66.66519165039062,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 58.44820785522461,
+      Instances: [],
+      Name: "Picnic",
+      Parents: [
+        {
+          Name: "Person"
+        },
+        {
+          Name: "Leisure Activities"
+        },
+        {
+          Name: "Vacation"
+        },
+        {
+          Name: "Meal"
+        },
+        {
+          Name: "Food"
+        }
+      ]
+    },
+    {
+      Confidence: 58.307315826416016,
+      Instances: [],
+      Name: "Dish",
+      Parents: [{
+          Name: "Meal"
+        },{
+          Name: "Food"
+        }]
+    }
+  ]
+}

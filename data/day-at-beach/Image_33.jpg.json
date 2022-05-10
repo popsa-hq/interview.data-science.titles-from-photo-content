@@ -1,0 +1,59 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.87496185302734,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.8835096955299377,
+            Left: 0.32796740531921387,
+            Top: 0.08105156570672989,
+            Width: 0.413703978061676
+          },
+          Confidence: 99.4870376586914
+        },{
+          BoundingBox: {
+            Height: 0.6395576000213623,
+            Left: 0.6321682333946228,
+            Top: 0.32097649574279785,
+            Width: 0.2992585301399231
+          },
+          Confidence: 99.48490142822266
+        },{
+          BoundingBox: {
+            Height: 0.5222388505935669,
+            Left: 0.15935645997524261,
+            Top: 0.44067567586898804,
+            Width: 0.2765972912311554
+          },
+          Confidence: 96.47674560546875
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.87496185302734,
+      Instances: [],
+      Name: "Family",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    },
+    {
+      Confidence: 99.87496185302734,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 99.87496185302734,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    }
+  ]
+}

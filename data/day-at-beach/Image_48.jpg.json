@@ -1,0 +1,230 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.6290512084961,
+      Instances: [],
+      Name: "Boy",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 99.6290512084961,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.913597822189331,
+            Left: 0.2308897078037262,
+            Top: 0.05636054277420044,
+            Width: 0.42065417766571045
+          },
+          Confidence: 98.5335693359375
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.6290512084961,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 96.76033020019531,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 90.13423156738281,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 88.44280242919922,
+      Instances: [],
+      Name: "Nature",
+      Parents: []
+    },
+    {
+      Confidence: 86.99078369140625,
+      Instances: [],
+      Name: "Sand",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 82.36546325683594,
+      Instances: [],
+      Name: "Water",
+      Parents: []
+    },
+    {
+      Confidence: 80.1908187866211,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 80.1908187866211,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 77.39051818847656,
+      Instances: [],
+      Name: "Shoreline",
+      Parents: [{
+          Name: "Water"
+        }]
+    },
+    {
+      Confidence: 76.47660064697266,
+      Instances: [],
+      Name: "Smile",
+      Parents: [{
+          Name: "Face"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 76.04471588134766,
+      Instances: [],
+      Name: "Ocean",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Water"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 76.04471588134766,
+      Instances: [],
+      Name: "Sea",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Water"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 73.99907684326172,
+      Instances: [],
+      Name: "Beach",
+      Parents: [
+        {
+          Name: "Shoreline"
+        },
+        {
+          Name: "Nature"
+        },
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Sea"
+        },
+        {
+          Name: "Water"
+        },
+        {
+          Name: "Coast"
+        }
+      ]
+    },
+    {
+      Confidence: 73.99907684326172,
+      Instances: [],
+      Name: "Coast",
+      Parents: [
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Water"
+        },
+        {
+          Name: "Nature"
+        },
+        {
+          Name: "Shoreline"
+        },
+        {
+          Name: "Sea"
+        }
+      ]
+    },
+    {
+      Confidence: 71.71376037597656,
+      Instances: [],
+      Name: "Kid",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 71.71376037597656,
+      Instances: [],
+      Name: "Child",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 69.84917449951172,
+      Instances: [],
+      Name: "Photo",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 69.84917449951172,
+      Instances: [],
+      Name: "Portrait",
+      Parents: [{
+          Name: "Face"
+        },{
+          Name: "Photography"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 69.84917449951172,
+      Instances: [],
+      Name: "Photography",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 59.18498992919922,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 58.49729537963867,
+      Instances: [],
+      Name: "Swimwear",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    }
+  ]
+}

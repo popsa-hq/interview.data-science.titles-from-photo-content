@@ -1,0 +1,199 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.51203918457031,
+      Instances: [],
+      Name: "Nature",
+      Parents: []
+    },
+    {
+      Confidence: 99.2613754272461,
+      Instances: [],
+      Name: "Weather",
+      Parents: [{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 99.2335205078125,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 98.7292251586914,
+      Instances: [],
+      Name: "Sky",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 98.7292251586914,
+      Instances: [],
+      Name: "Cumulus",
+      Parents: [
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Cloud"
+        },
+        {
+          Name: "Weather"
+        },
+        {
+          Name: "Sky"
+        },
+        {
+          Name: "Nature"
+        }
+      ]
+    },
+    {
+      Confidence: 98.7292251586914,
+      Instances: [],
+      Name: "Cloud",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Sky"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 97.61209869384766,
+      Instances: [],
+      Name: "Neighborhood",
+      Parents: [{
+          Name: "Urban"
+        },{
+          Name: "Building"
+        }]
+    },
+    {
+      Confidence: 97.61209869384766,
+      Instances: [],
+      Name: "Urban",
+      Parents: []
+    },
+    {
+      Confidence: 97.61209869384766,
+      Instances: [],
+      Name: "Building",
+      Parents: []
+    },
+    {
+      Confidence: 73.59192657470703,
+      Instances: [],
+      Name: "Azure Sky",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Sky"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 66.02828979492188,
+      Instances: [],
+      Name: "City",
+      Parents: [{
+          Name: "Urban"
+        },{
+          Name: "Building"
+        }]
+    },
+    {
+      Confidence: 66.02828979492188,
+      Instances: [],
+      Name: "Town",
+      Parents: [{
+          Name: "Urban"
+        },{
+          Name: "Building"
+        }]
+    },
+    {
+      Confidence: 60.62425994873047,
+      Instances: [],
+      Name: "Shelter",
+      Parents: [
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Countryside"
+        },
+        {
+          Name: "Building"
+        },
+        {
+          Name: "Nature"
+        },
+        {
+          Name: "Rural"
+        }
+      ]
+    },
+    {
+      Confidence: 60.62425994873047,
+      Instances: [],
+      Name: "Countryside",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 60.62425994873047,
+      Instances: [],
+      Name: "Rural",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Countryside"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 59.673789978027344,
+      Instances: [],
+      Name: "Suburb",
+      Parents: [{
+          Name: "Urban"
+        },{
+          Name: "Building"
+        }]
+    },
+    {
+      Confidence: 59.011268615722656,
+      Instances: [],
+      Name: "Plant",
+      Parents: []
+    },
+    {
+      Confidence: 59.011268615722656,
+      Instances: [],
+      Name: "Vegetation",
+      Parents: [{
+          Name: "Plant"
+        }]
+    },
+    {
+      Confidence: 57.8939323425293,
+      Instances: [],
+      Name: "Architecture",
+      Parents: [{
+          Name: "Building"
+        }]
+    }
+  ]
+}

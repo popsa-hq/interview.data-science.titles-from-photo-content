@@ -1,0 +1,103 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 98.26893615722656,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.964958667755127,
+            Left: 0.02135620079934597,
+            Top: 0.011035413481295109,
+            Width: 0.6584770679473877
+          },
+          Confidence: 95.73975372314453
+        },{
+          BoundingBox: {
+            Height: 0.7637413740158081,
+            Left: 0.24484722316265106,
+            Top: 0.21088658273220062,
+            Width: 0.5769123435020447
+          },
+          Confidence: 79.76290893554688
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 98.26893615722656,
+      Instances: [],
+      Name: "Dating",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 98.26893615722656,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 91.83708190917969,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 91.83708190917969,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 82.24605560302734,
+      Instances: [],
+      Name: "Hug",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 72.65731811523438,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 70.15874481201172,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 65.42755889892578,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 58.583404541015625,
+      Instances: [],
+      Name: "Woman",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 55.62633514404297,
+      Instances: [],
+      Name: "Shirt",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    }
+  ]
+}

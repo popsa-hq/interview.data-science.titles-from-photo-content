@@ -1,0 +1,109 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.24694061279297,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.9404405951499939,
+            Left: 0.43863585591316223,
+            Top: 0.02891833521425724,
+            Width: 0.5582647919654846
+          },
+          Confidence: 99.24694061279297
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.24694061279297,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 96.4963607788086,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.3629813492298126,
+            Left: 0,
+            Top: 0.25616347789764404,
+            Width: 0.28727227449417114
+          },
+          Confidence: 96.4963607788086
+        }],
+      Name: "Cooktop",
+      Parents: [{
+          Name: "Indoors"
+        }]
+    },
+    {
+      Confidence: 96.4963607788086,
+      Instances: [],
+      Name: "Indoors",
+      Parents: []
+    },
+    {
+      Confidence: 92.00875854492188,
+      Instances: [],
+      Name: "Oven",
+      Parents: [{
+          Name: "Appliance"
+        }]
+    },
+    {
+      Confidence: 92.00875854492188,
+      Instances: [],
+      Name: "Appliance",
+      Parents: []
+    },
+    {
+      Confidence: 91.18804931640625,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.0913572609424591,
+            Left: 0.316148966550827,
+            Top: 0.44760677218437195,
+            Width: 0.12282464653253555
+          },
+          Confidence: 91.18804931640625
+        },{
+          BoundingBox: {
+            Height: 0.09508080780506134,
+            Left: 0.3040246367454529,
+            Top: 0.5371838212013245,
+            Width: 0.12430334836244583
+          },
+          Confidence: 90.99605560302734
+        },{
+          BoundingBox: {
+            Height: 0.070791095495224,
+            Left: 0.4190644323825836,
+            Top: 0.36750704050064087,
+            Width: 0.09413138031959534
+          },
+          Confidence: 72.05403137207031
+        }],
+      Name: "Bread",
+      Parents: [{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 91.18804931640625,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 64.17066192626953,
+      Instances: [],
+      Name: "Bun",
+      Parents: [{
+          Name: "Food"
+        },{
+          Name: "Bread"
+        }]
+    }
+  ]
+}

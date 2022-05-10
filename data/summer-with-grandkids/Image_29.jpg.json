@@ -1,0 +1,107 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.77352905273438,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.77352905273438,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.9402933120727539,
+            Left: 0.002107452368363738,
+            Top: 0.01906137727200985,
+            Width: 0.6786127686500549
+          },
+          Confidence: 99.47034454345703
+        },{
+          BoundingBox: {
+            Height: 0.5648630857467651,
+            Left: 0.5696548223495483,
+            Top: 0.41996827721595764,
+            Width: 0.42912036180496216
+          },
+          Confidence: 96.37201690673828
+        },{
+          BoundingBox: {
+            Height: 0.714044988155365,
+            Left: 0.31941288709640503,
+            Top: 0.256436288356781,
+            Width: 0.6323471665382385
+          },
+          Confidence: 65.9487075805664
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.77352905273438,
+      Instances: [],
+      Name: "Face",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 94.87042999267578,
+      Instances: [],
+      Name: "Finger",
+      Parents: []
+    },
+    {
+      Confidence: 70.00011444091797,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 60.04619598388672,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 60.04619598388672,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 58.180118560791016,
+      Instances: [],
+      Name: "Kid",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 58.180118560791016,
+      Instances: [],
+      Name: "Child",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 56.97641372680664,
+      Instances: [],
+      Name: "Thumbs Up",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Finger"
+        }]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.48997497558594,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.48997497558594,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.5526042580604553,
+            Left: 0.19934627413749695,
+            Top: 0.15620070695877075,
+            Width: 0.6413536071777344
+          },
+          Confidence: 99.48997497558594
+        },{
+          BoundingBox: {
+            Height: 0.2139616757631302,
+            Left: 0.9320348501205444,
+            Top: 0.4965668320655823,
+            Width: 0.06621178239583969
+          },
+          Confidence: 97.15154266357422
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 91.27116394042969,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 85.30564880371094,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 83.01374053955078,
+      Instances: [],
+      Name: "Food",
+      Parents: []
+    },
+    {
+      Confidence: 83.01374053955078,
+      Instances: [],
+      Name: "Eating",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Food"
+        }]
+    },
+    {
+      Confidence: 82.6455078125,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    },
+    {
+      Confidence: 58.7607536315918,
+      Instances: [],
+      Name: "Dating",
+      Parents: [{
+          Name: "Person"
+        }]
+    }
+  ]
+}

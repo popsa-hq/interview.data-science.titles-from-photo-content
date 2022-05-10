@@ -1,0 +1,83 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 98.92256927490234,
+      Instances: [],
+      Name: "Heel",
+      Parents: []
+    },
+    {
+      Confidence: 97.15203094482422,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.5546239018440247,
+            Left: 0.017799897119402885,
+            Top: 0.25469282269477844,
+            Width: 0.9016577005386353
+          },
+          Confidence: 97.15203094482422
+        },{
+          BoundingBox: {
+            Height: 0.40312710404396057,
+            Left: 0.491434246301651,
+            Top: 0.30852019786834717,
+            Width: 0.47589999437332153
+          },
+          Confidence: 79.91806030273438
+        },{
+          BoundingBox: {
+            Height: 0.6396484971046448,
+            Left: 0.006848815828561783,
+            Top: 0.20936580002307892,
+            Width: 0.2453128695487976
+          },
+          Confidence: 75.09457397460938
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 97.15203094482422,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 86.43354034423828,
+      Instances: [],
+      Name: "Skin",
+      Parents: []
+    },
+    {
+      Confidence: 82.43964385986328,
+      Instances: [],
+      Name: "Toe",
+      Parents: []
+    },
+    {
+      Confidence: 81.87124633789062,
+      Instances: [],
+      Name: "Barefoot",
+      Parents: []
+    },
+    {
+      Confidence: 66.91375732421875,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 62.28364944458008,
+      Instances: [],
+      Name: "Nature",
+      Parents: []
+    },
+    {
+      Confidence: 59.27836608886719,
+      Instances: [],
+      Name: "Ankle",
+      Parents: []
+    }
+  ]
+}

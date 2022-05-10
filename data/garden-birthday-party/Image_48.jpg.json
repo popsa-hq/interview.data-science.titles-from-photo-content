@@ -1,0 +1,181 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.83621215820312,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.83621215820312,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.8724052906036377,
+            Left: 0.2893736660480499,
+            Top: 0.0553622767329216,
+            Width: 0.2713549733161926
+          },
+          Confidence: 99.83621215820312
+        },
+        {
+          BoundingBox: {
+            Height: 0.6244813203811646,
+            Left: 0.10414097458124161,
+            Top: 0.2886490821838379,
+            Width: 0.2725794017314911
+          },
+          Confidence: 99.83090209960938
+        },
+        {
+          BoundingBox: {
+            Height: 0.5510659217834473,
+            Left: 0.4322173297405243,
+            Top: 0.4151633381843567,
+            Width: 0.35627925395965576
+          },
+          Confidence: 99.7960205078125
+        },
+        {
+          BoundingBox: {
+            Height: 0.8313136696815491,
+            Left: 0.5961690545082092,
+            Top: 0.14603599905967712,
+            Width: 0.3818901479244232
+          },
+          Confidence: 99.7341079711914
+        },
+        {
+          BoundingBox: {
+            Height: 0.23909088969230652,
+            Left: 0.004119331482797861,
+            Top: 0.6060837507247925,
+            Width: 0.2515271306037903
+          },
+          Confidence: 42.73564529418945
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.73231506347656,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.215956449508667,
+            Left: 0.5956865549087524,
+            Top: 0.15491081774234772,
+            Width: 0.3040052354335785
+          },
+          Confidence: 99.73231506347656
+        }],
+      Name: "Hat",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 99.73231506347656,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 99.73231506347656,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 97.36920928955078,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 82.50513458251953,
+      Instances: [],
+      Name: "Birthday Party",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "People"
+        }]
+    },
+    {
+      Confidence: 70.78179168701172,
+      Instances: [],
+      Name: "Party Hat",
+      Parents: [{
+          Name: "Clothing"
+        },{
+          Name: "Hat"
+        }]
+    },
+    {
+      Confidence: 67.89236450195312,
+      Instances: [],
+      Name: "Drink",
+      Parents: []
+    },
+    {
+      Confidence: 67.89236450195312,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.13813740015029907,
+            Left: 0.5876361131668091,
+            Top: 0.8603610992431641,
+            Width: 0.10240954905748367
+          },
+          Confidence: 67.89236450195312
+        }],
+      Name: "Beer",
+      Parents: [{
+          Name: "Alcohol"
+        },{
+          Name: "Beverage"
+        }]
+    },
+    {
+      Confidence: 67.89236450195312,
+      Instances: [],
+      Name: "Alcohol",
+      Parents: [{
+          Name: "Beverage"
+        }]
+    },
+    {
+      Confidence: 67.89236450195312,
+      Instances: [],
+      Name: "Beverage",
+      Parents: []
+    },
+    {
+      Confidence: 63.54811096191406,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Female"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 63.54811096191406,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 57.19761657714844,
+      Instances: [],
+      Name: "Ball",
+      Parents: []
+    }
+  ]
+}

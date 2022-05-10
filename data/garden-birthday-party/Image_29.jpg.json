@@ -1,0 +1,105 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.76947021484375,
+      Instances: [],
+      Name: "Clothing",
+      Parents: []
+    },
+    {
+      Confidence: 99.76947021484375,
+      Instances: [],
+      Name: "Apparel",
+      Parents: []
+    },
+    {
+      Confidence: 99.56304931640625,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.85680091381073,
+            Left: 0,
+            Top: 0.09257319569587708,
+            Width: 0.48158904910087585
+          },
+          Confidence: 99.56304931640625
+        },{
+          BoundingBox: {
+            Height: 0.4912967085838318,
+            Left: 0.547273576259613,
+            Top: 0.26635798811912537,
+            Width: 0.31361085176467896
+          },
+          Confidence: 99.4559326171875
+        },{
+          BoundingBox: {
+            Height: 0.6608045697212219,
+            Left: 0.3846378028392792,
+            Top: 0.049230076372623444,
+            Width: 0.2553001642227173
+          },
+          Confidence: 98.24829864501953
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.56304931640625,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 98.76545715332031,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.20978255569934845,
+            Left: 0.4048707187175751,
+            Top: 0.02861998975276947,
+            Width: 0.2362080067396164
+          },
+          Confidence: 98.76545715332031
+        }],
+      Name: "Hat",
+      Parents: [{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 84.33287811279297,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 81.78438568115234,
+      Instances: [],
+      Name: "Party Hat",
+      Parents: [{
+          Name: "Hat"
+        },{
+          Name: "Clothing"
+        }]
+    },
+    {
+      Confidence: 64.25737762451172,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 64.25737762451172,
+      Instances: [],
+      Name: "Girl",
+      Parents: [{
+          Name: "Person"
+        },{
+          Name: "Female"
+        }]
+    }
+  ]
+}

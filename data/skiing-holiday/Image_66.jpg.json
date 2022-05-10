@@ -1,0 +1,101 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 95.37500762939453,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 94.07980346679688,
+      Instances: [],
+      Name: "Nature",
+      Parents: []
+    },
+    {
+      Confidence: 69.0599365234375,
+      Instances: [],
+      Name: "Shop",
+      Parents: []
+    },
+    {
+      Confidence: 69.0599365234375,
+      Instances: [],
+      Name: "Market",
+      Parents: []
+    },
+    {
+      Confidence: 69.0599365234375,
+      Instances: [],
+      Name: "Bazaar",
+      Parents: [{
+          Name: "Market"
+        },{
+          Name: "Shop"
+        }]
+    },
+    {
+      Confidence: 68.50994110107422,
+      Instances: [],
+      Name: "Sea",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Water"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 68.50994110107422,
+      Instances: [],
+      Name: "Water",
+      Parents: []
+    },
+    {
+      Confidence: 68.50994110107422,
+      Instances: [],
+      Name: "Ocean",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Water"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 64.00556945800781,
+      Instances: [],
+      Name: "Art",
+      Parents: []
+    },
+    {
+      Confidence: 58.91322326660156,
+      Instances: [],
+      Name: "Sports",
+      Parents: []
+    },
+    {
+      Confidence: 58.91322326660156,
+      Instances: [],
+      Name: "Sport",
+      Parents: []
+    },
+    {
+      Confidence: 57.10301971435547,
+      Instances: [],
+      Name: "Graphics",
+      Parents: [{
+          Name: "Art"
+        }]
+    },
+    {
+      Confidence: 56.215145111083984,
+      Instances: [],
+      Name: "Urban",
+      Parents: []
+    }
+  ]
+}

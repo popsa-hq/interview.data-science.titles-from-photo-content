@@ -1,0 +1,111 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.19388580322266,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.19388580322266,
+      Instances: [{
+          BoundingBox: {
+            Height: 0.908851146697998,
+            Left: 0.18781055510044098,
+            Top: 0.0743606761097908,
+            Width: 0.3680770993232727
+          },
+          Confidence: 99.19388580322266
+        }],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 95.87477111816406,
+      Instances: [],
+      Name: "Working Out",
+      Parents: [{
+          Name: "Sport"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 95.87477111816406,
+      Instances: [],
+      Name: "Sports",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 95.87477111816406,
+      Instances: [],
+      Name: "Exercise",
+      Parents: [{
+          Name: "Sport"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 95.87477111816406,
+      Instances: [],
+      Name: "Sport",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 94.86388397216797,
+      Instances: [],
+      Name: "Fitness",
+      Parents: [{
+          Name: "Working Out"
+        },{
+          Name: "Sport"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 93.52696228027344,
+      Instances: [],
+      Name: "Female",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 80.90644836425781,
+      Instances: [],
+      Name: "Woman",
+      Parents: [{
+          Name: "Female"
+        },{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 75.84366607666016,
+      Instances: [],
+      Name: "Heel",
+      Parents: []
+    },
+    {
+      Confidence: 63.03107452392578,
+      Instances: [],
+      Name: "People",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 56.46235275268555,
+      Instances: [],
+      Name: "Stretch",
+      Parents: []
+    }
+  ]
+}

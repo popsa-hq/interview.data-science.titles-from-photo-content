@@ -1,0 +1,219 @@
+{
+  LabelModelVersion: "2.0",
+  Labels: [
+    {
+      Confidence: 99.75531005859375,
+      Instances: [],
+      Name: "Nature",
+      Parents: []
+    },
+    {
+      Confidence: 99.65385437011719,
+      Instances: [
+        {
+          BoundingBox: {
+            Height: 0.2646082043647766,
+            Left: 0.4852423071861267,
+            Top: 0.27143916487693787,
+            Width: 0.12038806080818176
+          },
+          Confidence: 99.65385437011719
+        },
+        {
+          BoundingBox: {
+            Height: 0.3074015974998474,
+            Left: 0.709362268447876,
+            Top: 0.4708513021469116,
+            Width: 0.09772253781557083
+          },
+          Confidence: 99.64270782470703
+        },
+        {
+          BoundingBox: {
+            Height: 0.25128892064094543,
+            Left: 0.2343323826789856,
+            Top: 0.3696010112762451,
+            Width: 0.10255079716444016
+          },
+          Confidence: 99.39483642578125
+        },
+        {
+          BoundingBox: {
+            Height: 0.28777098655700684,
+            Left: 0.3841921091079712,
+            Top: 0.39651086926460266,
+            Width: 0.13141073286533356
+          },
+          Confidence: 99.2665786743164
+        },
+        {
+          BoundingBox: {
+            Height: 0.1694764792919159,
+            Left: 0.7156952023506165,
+            Top: 0.18067674338817596,
+            Width: 0.10197851806879044
+          },
+          Confidence: 98.0949935913086
+        },
+        {
+          BoundingBox: {
+            Height: 0.19351820647716522,
+            Left: 0.5470621585845947,
+            Top: 0.19957108795642853,
+            Width: 0.09092114120721817
+          },
+          Confidence: 97.98934173583984
+        }
+      ],
+      Name: "Person",
+      Parents: []
+    },
+    {
+      Confidence: 99.65385437011719,
+      Instances: [],
+      Name: "Human",
+      Parents: []
+    },
+    {
+      Confidence: 99.47630310058594,
+      Instances: [],
+      Name: "Outdoors",
+      Parents: []
+    },
+    {
+      Confidence: 97.6203842163086,
+      Instances: [],
+      Name: "Sport",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 97.6203842163086,
+      Instances: [],
+      Name: "Sports",
+      Parents: [{
+          Name: "Person"
+        }]
+    },
+    {
+      Confidence: 97.6203842163086,
+      Instances: [],
+      Name: "Skiing",
+      Parents: [
+        {
+          Name: "Person"
+        },
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Nature"
+        },
+        {
+          Name: "Snow"
+        },
+        {
+          Name: "Sport"
+        }
+      ]
+    },
+    {
+      Confidence: 97.6203842163086,
+      Instances: [],
+      Name: "Snow",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 95.70362854003906,
+      Instances: [],
+      Name: "Piste",
+      Parents: [
+        {
+          Name: "Person"
+        },
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Nature"
+        },
+        {
+          Name: "Snow"
+        },
+        {
+          Name: "Sport"
+        }
+      ]
+    },
+    {
+      Confidence: 95.47695922851562,
+      Instances: [],
+      Name: "Adventure",
+      Parents: [{
+          Name: "Leisure Activities"
+        }]
+    },
+    {
+      Confidence: 95.47695922851562,
+      Instances: [],
+      Name: "Leisure Activities",
+      Parents: []
+    },
+    {
+      Confidence: 80.29863739013672,
+      Instances: [],
+      Name: "Mountain",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 66.83557891845703,
+      Instances: [],
+      Name: "Ice",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Nature"
+        }]
+    },
+    {
+      Confidence: 56.040714263916016,
+      Instances: [],
+      Name: "Peak",
+      Parents: [
+        {
+          Name: "Outdoors"
+        },
+        {
+          Name: "Mountain Range"
+        },
+        {
+          Name: "Mountain"
+        },
+        {
+          Name: "Nature"
+        }
+      ]
+    },
+    {
+      Confidence: 56.040714263916016,
+      Instances: [],
+      Name: "Mountain Range",
+      Parents: [{
+          Name: "Outdoors"
+        },{
+          Name: "Mountain"
+        },{
+          Name: "Nature"
+        }]
+    }
+  ]
+}
